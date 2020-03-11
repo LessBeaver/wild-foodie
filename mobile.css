@@ -142,6 +142,38 @@
         font-size: 15px;
     }
 
+/* ARTICLE MOBILE */
+
+.titrerecette {
+    width: 100%;
+    margin-left: 5%;
+}
+
+.conteneur_article {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+.recettedumoisarticle {
+    width: 90%;
+    height: auto;
+    margin-bottom: 2%;
+    margin:auto;
+}
+
+.conteneur_recette {
+    width: 80%;
+    text-align: justify;
+}
+
+.soustitre {
+    list-style: none;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 4%;
+}
+
 /* FOOTER MOBILE */
 
     footer {
