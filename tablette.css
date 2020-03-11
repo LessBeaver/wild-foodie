@@ -1,3 +1,93 @@
+/*BODY VERSION TABLETTE*/
+
+body {
+    font-family: "Karla";
+}
+
+.conteneur1 {
+    display:flex;
+    flex-direction: row;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-content: center;
+}
+
+.titre1 {
+    font-size: 35px;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+ 
+.recettedumois {
+    width: 45%;
+    height: auto;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.descriptif {
+    font-size: 18px;
+    width: 70%;
+    text-align: justify;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: auto;
+    }
+    
+.bouton {
+    width: 15%;
+    font-size: 15px;
+    border:none;
+    padding:6px 0 6px 0;
+    border-radius:2px;
+    box-shadow:3px 3px 12px #999;
+    background:#fff;
+    color:#555;
+    margin-bottom: 10%;
+    cursor: pointer;
+    margin-left: 20%;
+    }
+
+.conteneur2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    }
+
+.sousconteneur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.imagesarticles {
+    width: 80%;
+    cursor: pointer;
+}
+
+.imagesarticles:hover {
+    opacity : 0.6;
+}
+
+p {
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
 /* FOOTER TABLETTE */
 
 @media screen and (min-width: 370px) and (max-width: 800px) {
