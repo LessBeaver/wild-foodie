@@ -97,7 +97,7 @@
         margin-right: 15%;
         margin-bottom: 5%;
     }
-    
+
     .recettedumois {
         width: 45%;
         height: auto;
@@ -129,13 +129,13 @@
         cursor: pointer;
         margin-left: 20%;
         }
-
+    
     .conteneur2 {
         display:flex;
         flex-direction: row;
         justify-content: center;
         }
-
+    
     .sousconteneur {
         display: flex;
         flex-direction: column;
@@ -143,18 +143,21 @@
         margin-left: 10px;
         margin-right: 10px;
     }
-
+    
     .imagesarticles {
         width: 100%;
         cursor: pointer;
     }
-
+    
+    .imagesarticles:hover {
+        opacity : 0.6;
+    }
+    
     p {
         width: 100%;
         font-size: 20px;
         text-align: center;
     }
-    
 
 /* FOOTER VERSION DESKTOP */
 
