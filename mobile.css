@@ -43,8 +43,14 @@
 
     /* FORM MOBILE */ 
 
+    .form_container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .form_title {
-        margin-left: 15px;
+        margin-left: auto;
     }
 
     .form {
@@ -81,6 +87,8 @@
         background-color: black;
         color: lightsalmon;
         cursor: pointer;
+        font-size: 14px;
+        font-weight: 100;
     }
 
     ::placeholder {
