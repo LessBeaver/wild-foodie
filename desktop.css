@@ -149,6 +149,10 @@ body {
     cursor: pointer;
 }
 
+.imagesarticles:hover {
+    opacity : 0.6;
+}
+
 p {
     width: 100%;
     font-size: 20px;
