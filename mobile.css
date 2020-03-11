@@ -46,6 +46,11 @@
     
     .topbar a:hover {
         color: gold;
+        text-decoration: underline;
+    }
+
+    .slogan-contact {
+        display: none;
     }
     
     
@@ -55,7 +60,8 @@
         font-weight: bold;
         text-shadow: 2px 5px 2px black;
       }
-    
+
+
     .titre-wild {
         font-family: 'Bilbo Swash Caps';
         font-size: 65px;

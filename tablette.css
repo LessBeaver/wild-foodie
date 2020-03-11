@@ -24,6 +24,12 @@
         linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
         url(https://cdn.pixabay.com/photo/2017/06/06/22/37/italian-cuisine-2378729_960_720.jpg) center bottom / cover no-repeat;
     }
+
+    .header-contact {
+        background: 
+        linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
+        url(https://images.pexels.com/photos/821754/pexels-photo-821754.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) center center / cover no-repeat;
+    }
     
     .topbar {
         padding: 10px 0;
@@ -59,17 +65,18 @@
     
     .topbar a:hover {
         color: gold;
+        text-decoration: underline;
     }
     
     
-    .slogan {
+    .slogan, .slogan-contact {
         padding: 70px 0 70px 0;
         text-align: center;
         font-weight: bold;
         text-shadow: 2px 5px 2px black;
       }
     
-    .titre-wild {
+    .titre-wild, .titre-contact {
         font-family: 'Bilbo Swash Caps';
         font-size: 70px;
         color: white;
