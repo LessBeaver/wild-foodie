@@ -325,7 +325,7 @@
     .form_title_desktop {
         font-size: 30px;
         font-weight: bold;
-        margin: 70px 0 0 9%;
+        margin: 55px 0 0 9%;
     }
 
     .form {
@@ -337,10 +337,8 @@
         font-family: 'Karla';
         display: flex;
         flex-direction: column;
-        width: 90%;
-        margin: 70px 24px 0 auto;
-        margin-left: auto;
-        margin-right: 24px;
+        width: 60%;
+        margin: 55px auto 0 auto;
     }
 
     .form_logo {
@@ -356,6 +354,11 @@
     .form_rat {
         margin-left: 25px;
         width: 200px;
+        margin-top: -25px;
+    }
+
+    .form_rat img {
+        height: 360px;
     }
 
     .form_name, .form_email {
@@ -370,13 +373,15 @@
 
     .form button {
         color: #35689d;
-        width: 26%;
+        width: 15%;
         float: right;
         border-radius: 0.3rem;
         height: 28px;
         cursor: pointer;
         font-size: 14px;
         font-weight: 100;
+        margin-left: auto;
+        margin-right: 10%;
     }
 
     ::placeholder {
