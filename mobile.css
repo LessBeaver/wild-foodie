@@ -138,18 +138,6 @@
         font-size: 65px;
         color: white;
     }
-<<<<<<< HEAD
-
-/* ARTICLE MOBILE */
-
-.titrerecette {
-    width: 100%;
-    margin-left: 5%;
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: 10%;
-}
-=======
     
         /* BODY MOBILE */ 
 
@@ -234,7 +222,6 @@
         width: 100%;
         margin-left: 5%;
     }
->>>>>>> 6d5f00e9a793a6f6c4472fa4e8072e55e2fd1b90
 
     .conteneur_article {
         display: flex;
