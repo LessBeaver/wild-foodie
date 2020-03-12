@@ -34,6 +34,11 @@
         url(img/pasta1.jpg) 
         center center / cover no-repeat;
     }
+
+    .header-recette {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
+        url(img/pasta1.jpg) center center / cover no-repeat;
+    }
     
     .topbar {
         padding: 5px 0;
