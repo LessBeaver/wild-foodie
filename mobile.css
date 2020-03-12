@@ -116,6 +116,12 @@
         cursor: pointer;
     }
 
+    p {
+        width: 60%;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
     .imagesarticles:hover {
         opacity: 0,6;
     }
@@ -123,7 +129,6 @@
     .slogan-contact {
         display: none;
     }
-    
     
     .slogan {
         padding: 50px 0 30px 0;
@@ -138,103 +143,14 @@
         font-size: 65px;
         color: white;
     }
-<<<<<<< HEAD
-
-/* ARTICLE MOBILE */
-
-.titrerecette {
-    width: 100%;
-    margin-left: 5%;
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: 10%;
-}
-=======
-    
-        /* BODY MOBILE */ 
-
-    body {
-        font-family: "Karla";
-    }
-
-    .conteneur1 {
-        display:flex;
-        flex-direction: column;
-        width: 100%;
-        margin-left: 5%;
-        margin-right: 5%;
-        align-content: center;
-    }
-
-    .titre1 {
-        width: 100%;
-        margin-left: 5%;
-        margin-right: 5%;
-        font-size: 19px;
-        word-spacing: 5px;
-    }
-
-    .recettedumois {
-        width: 90%;
-        height: auto;
-        margin-bottom: 2%;
-    }
-
-    .descriptif {
-        font-size: medium;
-        width: 90%;
-        text-align: justify;
-        line-height: 20px;
-        margin-bottom: 5%;
-        margin-left: 0;
-    }
-
-    .bouton {
-        width: 30%;
-        margin-left: 65%;
-        border:none;
-        padding:6px 0 6px 0;
-        border-radius:2px;
-        box-shadow:3px 3px 12px #999;
-        background:#fff;
-        color:#555;
-        margin-bottom: 20%;
-        cursor: pointer;
-    }
-
-    .conteneur2 {
-        display:flex;
-        flex-direction: column;
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-
-    .sousconteneur {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        margin-bottom: 25px;
-    }
-
-    .imagesarticles {
-        width: 100%;
-        text-align: justify;
-        cursor: pointer;
-    }
-
-    p {
-        width: 60%;
-        margin-left: 10px;
-        font-size: 15px;
-    }
-
-/* ARTICLE MOBILE */
 
     .titrerecette {
         width: 100%;
         margin-left: 5%;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 10%;
     }
->>>>>>> 6d5f00e9a793a6f6c4472fa4e8072e55e2fd1b90
 
     .conteneur_article {
         display: flex;
