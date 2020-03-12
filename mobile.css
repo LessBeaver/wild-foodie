@@ -318,6 +318,10 @@
         margin-left: auto;
         margin-right: auto;
     }
+    
+    .form_rat {
+        display: none;
+    }
 
     .form_content {
         background-color: black;
