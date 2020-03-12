@@ -265,6 +265,21 @@
         margin-right: auto;
     }
 
+    .form_rat {
+        display: none;
+    }
+
+    .form_rat2 {
+        margin-left: 25px;
+        width: 200px;
+    }
+
+    .form_rat2 img {
+        height: 450px;
+        width: 140%;
+        margin-top: -25px;
+    }
+
     .form_title_desktop {
         display: none;
     }
@@ -281,10 +296,6 @@
         width: 90%;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .form_rat {
-        display: none;
     }
 
     .form_content {
@@ -440,4 +451,11 @@
         font-size: 12px;
     }
 
+}
+
+
+@media screen and (min-width: 780px) and (max-width: 900px) {
+    .form_form {
+        margin-left: 40px;
+    }
 }
