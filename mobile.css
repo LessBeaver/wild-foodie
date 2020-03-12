@@ -162,10 +162,6 @@
         font-size: 65px;
         color: white;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
 
     .titre-auteur, .titre-contact {
         font-family: 'Bilbo Swash Caps';
@@ -204,8 +200,6 @@
     .desk-div {
         display: block;
     }
-
->>>>>>> c69138d8fe4ef27b0861cb92cbb7e5e43e93f302
     
         /* BODY MOBILE */ 
 
@@ -285,7 +279,6 @@
     }
 
 /* ARTICLE MOBILE */
->>>>>>> 61e1d25bca6a37fa5aa5c1fbc77ece4369ed85c7
 
     .titrerecette {
         width: 100%;
