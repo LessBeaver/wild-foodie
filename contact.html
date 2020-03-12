@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 370px)">
     <link rel="stylesheet" href="tablette.css" media="screen and (min-width: 370px) and (max-width: 800px)">
     <link rel="stylesheet" href="desktop.css" media="screen and (min-width:800px)">
-    <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps' rel='stylesheet'>
 
@@ -23,8 +22,8 @@
             <nav class="menu">
                 <a href="/index.html" class="menu-item">HOME</a>
                 <a href="/about.html" class="menu-item">À PROPOS</a>
-                <a href="/recettes-items" class="menu-item">RECETTES</a>
-                <a href="/contact.html" class="menu-item menu-contact">CONTACTS</a>
+                <a href="/recettes-items.html" class="menu-item menu-recette">RECETTES</a>
+                <a href="/contact.html" class="menu-item">CONTACTS</a>
 
             </nav>
         </div>
@@ -38,16 +37,18 @@
 
     <section class="form_border">
 
-        <h3 class="fomr_title">Nous contacter</h3>
+        <h3 class="form_title">Nous contacter</h3>
+        <h3 class="form_title_desktop">Contactez nous !</h3>
 
         <form  class="form">
-            <div>
-                <!--changer le target des logos !!!!! -->
-                <a href="https://icons8.com/icon/hQvLWSMeYXa4/slime-rancher" target="_blank"><img src="https://img.icons8.com/bubbles/40/000000/slime-rancher.png"></a>
+
+            <div class="form_form">
+
+                <a href="https://icons8.com/icon/hQvLWSMeYXa4/slime-rancher" target="_blank"><img src="https://img.icons8.com/bubbles/40/000000/slime-rancher.png" class="form_logo"></a>
                 <label for="name"></label>
                 <input type="text" name="name"class="form_name form_content" placeholder="name">
 
-                <a href="https://icons8.com/icon/122836/mail" target="blank_"><img src="https://img.icons8.com/bubbles/40/000000/important-mail.png"></a>
+                <a href="https://icons8.com/icon/122836/mail" target="blank_" class="form_logo"><img src="https://img.icons8.com/bubbles/40/000000/important-mail.png"></a>
                 <label for="email"></label>
                 <label for="email" ></label>
                 <input type="email" name="email" placeholder="email" class="form_email form_content">
@@ -58,7 +59,14 @@
 
             </div>
 
+            <div class="form_rat">
+
+                <img src="https://zupimages.net/up/20/11/0ta8.png" alt="ratatouille">
+
+            </div>
+
         </form>
+
     </section>
 
     <footer>

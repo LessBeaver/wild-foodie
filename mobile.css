@@ -1,5 +1,3 @@
-/* FOOTER MOBILE*/
-
 @media screen and (max-width: 370px) { 
 
     a {
@@ -59,6 +57,83 @@
     .topbar a:hover {
         color: gold;
         text-decoration: underline;
+    }
+
+    body {
+        font-family: "Karla";
+    }
+
+    .conteneur1 {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        align-content: center;
+    }
+
+    .titre1 {
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 19px;
+        word-spacing: 5px;
+    }
+
+    .recettedumois {
+        width: 90%;
+        height: auto;
+        margin-bottom: 2%;
+    }
+
+    .descriptif {
+        font-size: medium;
+        width: 90%;
+        text-align: justify;
+        line-height: 20px;
+        margin-bottom: 5%;
+        margin-left: 0;
+    }
+
+    .bouton {
+        width: 30%;
+        margin-left: 65%;
+        border:none;
+        padding:6px 0 6px 0;
+        border-radius:2px;
+        box-shadow:3px 3px 12px #999;
+        background:#fff;
+        color:#555;
+        margin-bottom: 20%;
+        cursor: pointer;
+    }
+
+    .conteneur2 {
+        display:flex;
+        flex-direction: column;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .sousconteneur {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .imagesarticles {
+        width: 100%;
+        text-align: justify;
+        cursor: pointer;
+    }
+
+    .imagesarticles:hover {
+        opacity: 0,6;
+    }
+
+    .slogan-contact {
+        display: none;
     }
     
     
@@ -199,6 +274,38 @@
         font-size: 15px;
     }
 
+/* ARTICLE MOBILE */
+
+    .titrerecette {
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .conteneur_article {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .recettedumoisarticle {
+        width: 90%;
+        height: auto;
+        margin-bottom: 2%;
+        margin:auto;
+    }
+
+    .conteneur_recette {
+        width: 80%;
+        text-align: justify;
+    }
+
+    .soustitre {
+        list-style: none;
+        font-weight: bold;
+        text-decoration: underline;
+        margin-bottom: 4%;
+    }
+
 /* FOOTER MOBILE */
 
     footer {
@@ -241,6 +348,11 @@
         height: 30px;
     }
 
+    .footer a:hover {
+        color: gold;
+        text-decoration: none;
+    }
+
     /* FORM MOBILE */ 
 
     .form_border {
@@ -260,11 +372,16 @@
     }
 
     .form {
+        font-family: 'Karla';
         display: flex;
         flex-direction: column;
         width: 90%;
         margin-left: auto;
         margin-right: auto;
+    }
+    
+    .form_rat {
+        display: none;
     }
 
     .form_content {

@@ -73,12 +73,12 @@
     }
     
     
-    .slogan, .slogan-contact, .slogan-auteur{
+    .slogan-contact, .slogan-auteur{
         padding: 70px 0 70px 0;
         text-align: center;
         font-weight: bold;
         text-shadow: 2px 5px 2px black;
-      }
+    }
 
     .slogan {
         padding: 100px 0 100px 0;
@@ -217,19 +217,171 @@
         margin-right: 10px;
     }
     
-    .imagesarticles {
+    .bouton {
+        width: 15%;
+        font-size: 30px;
+        border:none;
+        padding:6px 0 6px 0;
+        border-radius:2px;
+        box-shadow:3px 3px 12px #999;
+        background:#fff;
+        color:#555;
+        margin-bottom: 10%;
+        cursor: pointer;
+        margin-left: 20%;
+        }
+
+    .conteneur2 {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        }
+
+    .sousconteneur {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .imagesarticles {
+        width: 60%;
         cursor: pointer;
     }
-    
+
     .imagesarticles:hover {
         opacity : 0.6;
     }
-    
+
     p {
-        width: 100%;
+        width: 60%;
         font-size: 20px;
         text-align: center;
+    }
+
+    /* ARTICLE MOBILE */
+
+    .titrerecette {
+        width: 100%;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .conteneur_article {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin-bottom: 5%;
+    }
+
+    .recettedumoisarticle {
+        width: 40%;
+        height: auto;
+        margin-bottom: 1%;
+    }
+
+    .conteneur_recette {
+        width: 60%;
+        text-align: justify;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5%;
+    }
+
+    .soustitre {
+        list-style: none;
+        font-weight: bold;
+        text-decoration: underline;
+        margin-bottom: 2%;
+        font-size: 18px;
+    }
+
+    /* FORM MOBILE */ 
+
+    .form_border {
+        width: 60%;
+        margin: 40px auto;
+    }
+
+    .form_container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form_title {
+        display: none;
+        color: white;
+        margin-bottom: 0;
+    }
+
+    .form_title_desktop {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .form_form  {
+        font-family: 'Karla';
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 70px 24px 0 auto;
+        margin-left: auto;
+        margin-right: 24px;
+    }
+
+    .form_logo {
+        display: none;
+    }
+
+    .form_content {
+        border-radius: 0.3rem;
+        margin: 10px 0;
+        border: 1px solid #7d7373;
+    }
+
+    .form_name, .form_email {
+        height: 26px;
+    }
+
+    .form textarea {
+        width: 100%;
+        height: 100px;
+        border-radius: 0.3rem;
+    }
+
+    .form button {
+        color: #35689d;
+        width: 26%;
+        float: right;
+        border-radius: 0.3rem;
+        height: 28px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 100;
+    }
+
+    ::placeholder {
+        color: #35689d;
+        font-size: 12px;
+    }
+
+    .footer a:hover {
+        color: gold;
+        text-decoration: none;
     }
 
 /* FOOTER VERSION DESKTOP */
@@ -239,7 +391,7 @@
         font-family: "Karla";
         background-color: black;
         width: 100%;
-        height: 140px;
+        height: 100px;
     }
 
     .footer {
