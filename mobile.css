@@ -20,19 +20,12 @@
     .header {
         background:
         linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
-        url(img/italie.jpg) center bottom / cover no-repeat;
+        url("https://cdn.pixabay.com/photo/2017/06/06/22/37/italian-cuisine-2378729_960_720.jpg") center center / cover no-repeat;
     }
 
-    .header-auteur {
+    .header-recette {
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
-        url(img/pasta1.jpg) 
-        center center / cover no-repeat;
-    }
-
-    .header-contact {
-        background: 
-        linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
-        url(img/pizza2.jpg) center center / cover no-repeat;
+        url(img/pasta1.jpg) center center / cover no-repeat;
     }
     
     .topbar {
@@ -138,22 +131,12 @@
         opacity: 0,6;
     }
 
-    .slogan-contact {
-        display: none;
-    }
     
     .slogan {
         padding: 50px 0 30px 0;
         text-align: center;
         font-weight: bold;
         text-shadow: 2px 5px 2px black;
-      }
-
-    .slogan-auteur, .slogan-contact {
-        padding: 50px 0 30px 0;
-        text-align: center;
-        font-weight: bold;
-        text-shadow: 5px 5px 5px black;
       }
 
 
@@ -278,8 +261,11 @@
         font-size: 15px;
     }
 
+<<<<<<< HEAD
 /* ARTICLE MOBILE */
 
+=======
+>>>>>>> 6700ace210fecc8211fe65dfb1689ae682a8f343
     .titrerecette {
         width: 100%;
         margin-left: 5%;
