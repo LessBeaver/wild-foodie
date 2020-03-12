@@ -133,11 +133,16 @@
         cursor: pointer;
     }
 
+    p {
+        width: 60%;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
     .imagesarticles:hover {
         opacity: 0,6;
     }
 
-    
     
     .slogan {
         padding: 50px 0 30px 0;
@@ -159,6 +164,10 @@
         font-size: 65px;
         color: white;
     }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
 
     .titre-auteur, .titre-contact {
         font-family: 'Bilbo Swash Caps';
@@ -198,6 +207,7 @@
         display: block;
     }
 
+>>>>>>> c69138d8fe4ef27b0861cb92cbb7e5e43e93f302
     
         /* BODY MOBILE */ 
 
@@ -277,10 +287,14 @@
     }
 
 /* ARTICLE MOBILE */
+>>>>>>> 61e1d25bca6a37fa5aa5c1fbc77ece4369ed85c7
 
     .titrerecette {
         width: 100%;
         margin-left: 5%;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 10%;
     }
 
     .conteneur_article {
