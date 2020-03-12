@@ -141,8 +141,6 @@
         color: white;
     }
     
-<<<<<<< HEAD
-=======
         /* BODY MOBILE */ 
 
     body {
@@ -214,7 +212,6 @@
         cursor: pointer;
     }
 
->>>>>>> e6a536709219c217baa1b19a40c5ce3e55469aaa
     p {
         width: 60%;
         margin-left: 10px;
@@ -223,35 +220,35 @@
 
 /* ARTICLE MOBILE */
 
-.titrerecette {
-    width: 100%;
-    margin-left: 5%;
-}
+    .titrerecette {
+        width: 100%;
+        margin-left: 5%;
+    }
 
-.conteneur_article {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 100%;
-}
+    .conteneur_article {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
 
-.recettedumoisarticle {
-    width: 90%;
-    height: auto;
-    margin-bottom: 2%;
-    margin:auto;
-}
+    .recettedumoisarticle {
+        width: 90%;
+        height: auto;
+        margin-bottom: 2%;
+        margin:auto;
+    }
 
-.conteneur_recette {
-    width: 80%;
-    text-align: justify;
-}
+    .conteneur_recette {
+        width: 80%;
+        text-align: justify;
+    }
 
-.soustitre {
-    list-style: none;
-    font-weight: bold;
-    text-decoration: underline;
-    margin-bottom: 4%;
-}
+    .soustitre {
+        list-style: none;
+        font-weight: bold;
+        text-decoration: underline;
+        margin-bottom: 4%;
+    }
 
 /* FOOTER MOBILE */
 
