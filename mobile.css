@@ -141,7 +141,7 @@
         color: white;
     }
     
-        /* BODY MOBILE */ 
+    /* BODY MOBILE */ 
 
     body {
         font-family: "Karla";
@@ -250,7 +250,73 @@
         margin-bottom: 4%;
     }
 
-/* FOOTER MOBILE */
+    /* FORM MOBILE */
+    
+    .form_container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form_border {
+        border: 1px solid black;
+        margin: 40px 10px;
+        box-shadow: 1px 1px 10px 10px lightgray;
+    }
+
+    .form {
+        font-family: 'Karla';
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form_content {
+        background-color: black;
+        border-radius: 0.7rem;
+        margin: 10px 0;
+        border: 1px solid black;
+        color: white;
+    }
+
+    .form_title {
+        margin-left: 10px;
+    }
+    
+    .form_rat {
+        display: none;
+    }
+
+    .form_name, .form_email {
+        height: 16px;
+    }
+
+    .form textarea {
+        width: 100%;
+        height: 80px;
+        border-radius: 0.7rem;
+    }
+
+    .form button {
+        width: 26%;
+        float: right;
+        border-radius: 0.7rem;
+        height: 28px;
+        background-color: black;
+        color: lightsalmon;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 100;
+    }
+
+    ::placeholder {
+        color: lightsalmon;
+        font-size: 12px;
+    }
+
+    /* FOOTER MOBILE */
 
     footer {
         display: flex;
@@ -295,72 +361,6 @@
     .footer a:hover {
         color: gold;
         text-decoration: none;
-    }
-
-    /* FORM MOBILE */ 
-
-    .form_border {
-        border: 1px solid black;
-        margin: 40px 10px;
-        box-shadow: 1px 1px 10px 10px lightgray;
-    }
-
-    .form_container {
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .form_title {
-        margin-left: 10px;
-    }
-
-    .form {
-        font-family: 'Karla';
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .form_rat {
-        display: none;
-    }
-
-    .form_content {
-        background-color: black;
-        border-radius: 0.7rem;
-        margin: 10px 0;
-        border: 1px solid black;
-        color: white;
-    }
-
-    .form_name, .form_email {
-        height: 16px;
-    }
-
-    .form textarea {
-        width: 100%;
-        height: 80px;
-        border-radius: 0.7rem;
-    }
-
-    .form button {
-        width: 26%;
-        float: right;
-        border-radius: 0.7rem;
-        height: 28px;
-        background-color: black;
-        color: lightsalmon;
-        cursor: pointer;
-        font-size: 14px;
-        font-weight: 100;
-    }
-
-    ::placeholder {
-        color: lightsalmon;
-        font-size: 12px;
     }
 
 }
