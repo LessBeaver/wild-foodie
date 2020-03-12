@@ -72,7 +72,7 @@
         text-align: center;
         font-weight: bold;
         text-shadow: 2px 5px 2px black;
-      }
+    }
     
     .titre-wild, .titre-contact {
         font-family: 'Bilbo Swash Caps';
@@ -150,19 +150,50 @@
         margin-right: 10px;
     }
     
+    .bouton {
+        width: 15%;
+        font-size: 30px;
+        border:none;
+        padding:6px 0 6px 0;
+        border-radius:2px;
+        box-shadow:3px 3px 12px #999;
+        background:#fff;
+        color:#555;
+        margin-bottom: 10%;
+        cursor: pointer;
+        margin-left: 20%;
+        }
+
+    .conteneur2 {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        }
+
+    .sousconteneur {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
     .imagesarticles {
-    width: 60%;
-    cursor: pointer;
+        width: 60%;
+        cursor: pointer;
     }
 
     .imagesarticles:hover {
-    opacity : 0.6;
+        opacity : 0.6;
     }
 
     p {
-    width: 60%;
-    font-size: 20px;
-    text-align: center;
+        width: 60%;
+        font-size: 20px;
+        text-align: center;
     }
 
     /* ARTICLE MOBILE */
@@ -208,10 +239,7 @@
     /* FORM MOBILE */ 
 
     .form_border {
-        border: 1px solid black;
-        margin: 40px 10px;
-        box-shadow: 1px 1px 10px 10px lightgray;
-        width: 70%;
+        width: 60%;
         margin: 40px auto;
     }
 
@@ -224,49 +252,63 @@
     .form_title {
         display: none;
         color: white;
+        margin-bottom: 0;
+    }
+
+    .form_title_desktop {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 0;
     }
 
     .form {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .form_form  {
         font-family: 'Karla';
         display: flex;
         flex-direction: column;
         width: 90%;
+        margin: 70px 24px 0 auto;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: 24px;
+    }
+
+    .form_logo {
+        display: none;
     }
 
     .form_content {
-        background-color: black;
-        border-radius: 0.7rem;
+        border-radius: 0.3rem;
         margin: 10px 0;
-        border: 1px solid black;
-        color: white;
+        border: 1px solid #7d7373;
     }
 
     .form_name, .form_email {
-        height: 16px;
+        height: 26px;
     }
 
     .form textarea {
         width: 100%;
-        height: 80px;
-        border-radius: 0.7rem;
+        height: 100px;
+        border-radius: 0.3rem;
     }
 
     .form button {
+        color: #35689d;
         width: 26%;
         float: right;
-        border-radius: 0.7rem;
+        border-radius: 0.3rem;
         height: 28px;
-        background-color: black;
-        color: lightsalmon;
         cursor: pointer;
         font-size: 14px;
         font-weight: 100;
     }
 
     ::placeholder {
-        color: lightsalmon;
+        color: #35689d;
         font-size: 12px;
     }
 
