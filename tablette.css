@@ -273,4 +273,9 @@ p {
         height: 40px;
     }
 
+    .footer a:hover {
+        color: gold;
+        text-decoration: none;
+    }
+
 }

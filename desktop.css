@@ -287,6 +287,11 @@
         font-size: 12px;
     }
 
+    .footer a:hover {
+        color: gold;
+        text-decoration: none;
+    }
+
 /* FOOTER VERSION DESKTOP */
 
     footer {
@@ -294,7 +299,7 @@
         font-family: "Karla";
         background-color: black;
         width: 100%;
-        height: 140px;
+        height: 100px;
     }
 
     .footer {
