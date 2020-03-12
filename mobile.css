@@ -20,13 +20,27 @@
     .header {
         background:
         linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
-        url("https://cdn.pixabay.com/photo/2017/06/06/22/37/italian-cuisine-2378729_960_720.jpg") center center / cover no-repeat;
+        url(img/italie.jpg) center center / cover no-repeat;
     }
 
     .header-recette {
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
-        url(img/pasta1.jpg) center center / cover no-repeat;
+        url(img/toast.jpg) center center / cover no-repeat;
     }
+
+    .header-contact {
+        background: 
+        linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
+        url(img/pizza2.jpg) center center / cover no-repeat;
+    }
+
+    .header-auteur {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
+        url(img/pasta1.jpg) 
+        center center / cover no-repeat;
+    }
+
+
     
     .topbar {
         padding: 5px 0;
@@ -132,7 +146,7 @@
     }
 
     
-    .slogan {
+    .slogan, .slogan-contact, .slogan-auteur {
         padding: 50px 0 30px 0;
         text-align: center;
         font-weight: bold;
