@@ -20,7 +20,19 @@
     .header {
         background:
         linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
-        url("https://cdn.pixabay.com/photo/2017/06/06/22/37/italian-cuisine-2378729_960_720.jpg") center center / cover no-repeat;
+        url(img/italie.jpg) center bottom / cover no-repeat;
+    }
+
+    .header-auteur {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
+        url(img/pasta1.jpg) 
+        center center / cover no-repeat;
+    }
+
+    .header-contact {
+        background: 
+        linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
+        url(img/pizza2.jpg) center center / cover no-repeat;
     }
     
     .topbar {
@@ -116,6 +128,12 @@
         cursor: pointer;
     }
 
+    p {
+        width: 60%;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
     .imagesarticles:hover {
         opacity: 0,6;
     }
@@ -124,12 +142,18 @@
         display: none;
     }
     
-    
     .slogan {
         padding: 50px 0 30px 0;
         text-align: center;
         font-weight: bold;
         text-shadow: 2px 5px 2px black;
+      }
+
+    .slogan-auteur, .slogan-contact {
+        padding: 50px 0 30px 0;
+        text-align: center;
+        font-weight: bold;
+        text-shadow: 5px 5px 5px black;
       }
 
 
@@ -138,6 +162,50 @@
         font-size: 65px;
         color: white;
     }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+
+    .titre-auteur, .titre-contact {
+        font-family: 'Bilbo Swash Caps';
+        font-size: 50px;
+        color: white;
+        margin: 20px;
+    }
+
+    .photo {
+        text-align: center;
+    }
+
+    .photo-auteur {
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+        box-shadow: 5px 5px 5px black;
+    }
+
+    .titre-presentation, .titre-debut {
+        text-align: center;
+        font-family: "Karla";
+        color: black;
+        text-shadow: 2px 2px 2px grey;
+    }
+
+    .txt-auteur, .txt-debut {
+        margin: auto;
+        text-align: justify;
+    }
+
+    .txt-fin {
+        margin-bottom: 40px;
+    }
+
+    .desk-div {
+        display: block;
+    }
+
+>>>>>>> c69138d8fe4ef27b0861cb92cbb7e5e43e93f302
     
     /* BODY MOBILE */ 
 
@@ -217,10 +285,14 @@
     }
 
 /* ARTICLE MOBILE */
+>>>>>>> 61e1d25bca6a37fa5aa5c1fbc77ece4369ed85c7
 
     .titrerecette {
         width: 100%;
         margin-left: 5%;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 10%;
     }
 
     .conteneur_article {
