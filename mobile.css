@@ -371,6 +371,10 @@
         margin-left: 10px;
     }
 
+    .form_title_desktop {
+        display: none;
+    }
+
     .form {
         font-family: 'Karla';
         display: flex;
