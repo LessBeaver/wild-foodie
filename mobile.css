@@ -49,7 +49,6 @@
         text-decoration: underline;
     }
 
-<<<<<<< HEAD
     body {
         font-family: "Karla";
     }
@@ -121,7 +120,8 @@
 
     .imagesarticles:hover {
         opacity: 0,6;
-=======
+    }
+
     .slogan-contact {
         display: none;
     }
@@ -210,7 +210,6 @@
         width: 100%;
         text-align: justify;
         cursor: pointer;
->>>>>>> 9e300a36cb728a492739a7cce998bbac40e0cf41
     }
 
     p {
