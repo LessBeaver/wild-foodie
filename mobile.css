@@ -22,6 +22,11 @@
         linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
         url("https://cdn.pixabay.com/photo/2017/06/06/22/37/italian-cuisine-2378729_960_720.jpg") center center / cover no-repeat;
     }
+
+    .header-recette {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
+        url(img/pasta1.jpg) center center / cover no-repeat;
+    }
     
     .topbar {
         padding: 5px 0;
@@ -126,9 +131,6 @@
         opacity: 0,6;
     }
 
-    .slogan-contact {
-        display: none;
-    }
     
     .slogan {
         padding: 50px 0 30px 0;
@@ -143,7 +145,122 @@
         font-size: 65px;
         color: white;
     }
+
+    .titre-auteur, .titre-contact {
+        font-family: 'Bilbo Swash Caps';
+        font-size: 50px;
+        color: white;
+        margin: 20px;
+    }
+
+    .photo {
+        text-align: center;
+    }
+
+    .photo-auteur {
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+        box-shadow: 5px 5px 5px black;
+    }
+
+    .titre-presentation, .titre-debut {
+        text-align: center;
+        font-family: "Karla";
+        color: black;
+        text-shadow: 2px 2px 2px grey;
+    }
+
+    .txt-auteur, .txt-debut {
+        margin: auto;
+        text-align: justify;
+    }
+
+    .txt-fin {
+        margin-bottom: 40px;
+    }
+
+    .desk-div {
+        display: block;
+    }
     
+        /* BODY MOBILE */ 
+
+    body {
+        font-family: "Karla";
+    }
+
+    .conteneur1 {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        align-content: center;
+    }
+
+    .titre1 {
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 19px;
+        word-spacing: 5px;
+    }
+
+    .recettedumois {
+        width: 90%;
+        height: auto;
+        margin-bottom: 2%;
+    }
+
+    .descriptif {
+        font-size: medium;
+        width: 90%;
+        text-align: justify;
+        line-height: 20px;
+        margin-bottom: 5%;
+        margin-left: 0;
+    }
+
+    .bouton {
+        width: 30%;
+        margin-left: 65%;
+        border:none;
+        padding:6px 0 6px 0;
+        border-radius:2px;
+        box-shadow:3px 3px 12px #999;
+        background:#fff;
+        color:#555;
+        margin-bottom: 20%;
+        cursor: pointer;
+    }
+
+    .conteneur2 {
+        display:flex;
+        flex-direction: column;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .sousconteneur {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .imagesarticles {
+        width: 100%;
+        text-align: justify;
+        cursor: pointer;
+    }
+
+    p {
+        width: 60%;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
     .titrerecette {
         width: 100%;
         margin-left: 5%;
