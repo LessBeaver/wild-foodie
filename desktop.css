@@ -258,7 +258,7 @@
     .form_title_desktop {
         font-size: 30px;
         font-weight: bold;
-        margin-bottom: 0;
+        margin: 70px 0 0 9%;
     }
 
     .form {
@@ -284,6 +284,11 @@
         border-radius: 0.3rem;
         margin: 10px 0;
         border: 1px solid #7d7373;
+    }
+
+    .form_rat {
+        margin-left: 25px;
+        width: 200px;
     }
 
     .form_name, .form_email {
