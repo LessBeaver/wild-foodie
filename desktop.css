@@ -196,19 +196,44 @@
         text-align: center;
     }
 
-    .imagesarticles {
+    /* ARTICLE MOBILE */
+
+    .titrerecette {
         width: 100%;
-        cursor: pointer;
-    }
-    
-    .imagesarticles:hover {
-        opacity : 0.6;
-    }
-    
-    p {
-        width: 100%;
-        font-size: 20px;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 5%;
+        margin-top: 5%;
         text-align: center;
+    }
+
+    .conteneur_article {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin-bottom: 5%;
+    }
+
+    .recettedumoisarticle {
+        width: 40%;
+        height: auto;
+        margin-bottom: 1%;
+    }
+
+    .conteneur_recette {
+        width: 60%;
+        text-align: justify;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5%;
+    }
+
+    .soustitre {
+        list-style: none;
+        font-weight: bold;
+        text-decoration: underline;
+        margin-bottom: 2%;
+        font-size: 18px;
     }
 
     /* FORM MOBILE */ 
