@@ -197,6 +197,8 @@
         font-family: "Karla";
         color: black;
         text-shadow: 2px 2px 2px grey;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     .txt-auteur, .txt-debut {
