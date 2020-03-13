@@ -1,5 +1,7 @@
 @media screen and (max-width: 370px) { 
 
+    /* NAVBAR */
+
     a {
         color: inherit;
         text-decoration: none;
@@ -59,6 +61,8 @@
         text-decoration: underline;
     }
 
+    /* BODY INDEX */
+
     body {
         font-family: "Karla";
     }
@@ -96,19 +100,18 @@
     }
 
     .bouton {
-        width: 30%;
-        margin-left: 65%;
         border:none;
-        padding:6px 0 6px 0;
+        padding:6px 8px;
         border-radius:2px;
         box-shadow:3px 3px 12px #999;
         background:#fff;
         color:#555;
-        margin-bottom: 20%;
+        margin: 10px 0 0 34%;
         cursor: pointer;
     }
 
     .conteneur2 {
+        margin-top: 20%;
         display:flex;
         flex-direction: column;
         margin-left: 2%;
@@ -137,6 +140,8 @@
     .imagesarticles:hover {
         opacity: 0,6;
     }
+
+    /* AUTEUR */
 
     .slogan-contact {
         display: none;
@@ -201,84 +206,7 @@
         display: block;
     }
 
-    /* BODY MOBILE */  
-
-    body {
-        font-family: "Karla";
-    }
-
-    .conteneur1 {
-        display:flex;
-        flex-direction: column;
-        width: 100%;
-        margin-left: 5%;
-        margin-right: 5%;
-        align-content: center;
-    }
-
-    .titre1 {
-        width: 100%;
-        margin-left: 5%;
-        margin-right: 5%;
-        font-size: 19px;
-        word-spacing: 5px;
-    }
-
-    .recettedumois {
-        width: 90%;
-        height: auto;
-        margin-bottom: 2%;
-    }
-
-    .descriptif {
-        font-size: medium;
-        width: 90%;
-        text-align: justify;
-        line-height: 20px;
-        margin-bottom: 5%;
-        margin-left: 0;
-    }
-
-    .bouton {
-        width: 30%;
-        margin-left: 65%;
-        border:none;
-        padding:6px 0 6px 0;
-        border-radius:2px;
-        box-shadow:3px 3px 12px #999;
-        background:#fff;
-        color:#555;
-        margin-bottom: 20%;
-        cursor: pointer;
-    }
-
-    .conteneur2 {
-        display:flex;
-        flex-direction: column;
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-
-    .sousconteneur {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        margin-bottom: 25px;
-    }
-
-    .imagesarticles {
-        width: 100%;
-        text-align: justify;
-        cursor: pointer;
-    }
-
-    p {
-        width: 60%;
-        margin-left: 10px;
-        font-size: 15px;
-    }
-
-/* ARTICLE MOBILE */
+    /* ARTICLE MOBILE */
 
     .titrerecette {
         width: 100%;
@@ -313,7 +241,7 @@
         margin-bottom: 4%;
     }
 
-/* FOOTER MOBILE */
+    /* FOOTER */
 
     footer {
         display: flex;
@@ -360,7 +288,7 @@
         text-decoration: none;
     }
 
-    /* FORM MOBILE */ 
+    /* FORMULAIRE */ 
 
     .form_border {
         border: 1px solid black;
@@ -437,28 +365,4 @@
         font-size: 12px;
     }
 
-    /* FOOTER MOBILE */
-
-    footer {
-        display: flex;
-        font-family: "Karla";
-        background-color: black;
-        width: 100%;
-        height: 140px;
-        margin-top: 40px;
-    }
-
-    .footer {
-        text-align: center;
-        list-style: none;
-        padding: 10px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .footer a {
-        text-decoration: none;
-        color: #ffffff;
-        padding: 6px;
-    }
+}

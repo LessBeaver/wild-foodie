@@ -1,5 +1,7 @@
 @media screen and (min-width:780px) {
 
+    /* NAVBAR */
+
     a {
         color: inherit;
         text-decoration: none;
@@ -77,6 +79,7 @@
         text-decoration: underline;
     }
     
+    /* PAGE AUTEUR */
     
     .slogan-contact, .slogan-auteur{
         padding: 100px 0 100px 0;
@@ -152,7 +155,7 @@
         margin-bottom: 50px;
     }
 
-    /*BODY VERSION DESKTOP*/
+    /*BODY */
 
     body {
         font-family: "Karla";
@@ -204,6 +207,7 @@
         color:#555;
         margin-bottom: 20%;
         cursor: pointer;
+<<<<<<< HEAD
         margin-left: 25%;
         }
     
@@ -215,21 +219,29 @@
         }
     
     .sousconteneur {
+=======
+        margin-left: 20%;
+        padding-left: 38px;
+>>>>>>> 5feb0ae7465f898afdabf67c0eb54e580a352ee2
         display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin-left: 10px;
-        margin-right: 10px;
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 5feb0ae7465f898afdabf67c0eb54e580a352ee2
     .conteneur2 {
         display:flex;
         flex-direction: row;
         justify-content: center;
         width: 80%;
         margin: auto;
+<<<<<<< HEAD
         margin-top: 10%;
         }
+=======
+    }
+>>>>>>> 5feb0ae7465f898afdabf67c0eb54e580a352ee2
 
     .sousconteneur {
         display: flex;
@@ -255,7 +267,7 @@
         text-align: center;
     }
 
-    /* ARTICLE MOBILE */
+    /* ARTICLE */
 
     .titrerecette {
         width: 100%;
@@ -306,7 +318,7 @@
         font-size: 18px;
     }
 
-    /* FORM MOBILE */ 
+    /* FORMULAIRE */ 
 
     .form_border {
         width: 60%;
@@ -402,7 +414,7 @@
         text-decoration: none;
     }
 
-/* FOOTER VERSION DESKTOP */
+    /* FOOTER */
 
     footer {
         display: flex;
@@ -456,6 +468,7 @@
     }
 
 }
+
 @media screen and (min-width: 800px) and (max-width: 1040px) {
     .form_form {
         margin-left: 40px;
