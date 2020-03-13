@@ -233,12 +233,12 @@
     .recettedumoisarticle {
         width: 90%;
         height: auto;
-        margin-bottom: 2%;
-        margin:auto;
+        margin: 10px 0;
     }
 
     .recettedumoisarticle ul {
         margin-bottom: 10px;
+
     }
 
     .conteneur_recette {
