@@ -308,7 +308,7 @@
     }
 
     .form_form {
-        margin-top: 20%;
+        margin-top: 15%;
         width: 90%;
         margin-left: auto;
         margin-right: auto;
@@ -316,6 +316,7 @@
 
     .form_title {
         margin: 8% 0 0 8%;
+        font-size: 20px;
     }
 
     .form_title_desktop {
@@ -356,17 +357,16 @@
     .form button {
         width: 26%;
         float: right;
-        border-radius: 0.7rem;
+        border-radius: 0.3rem;
         height: 28px;
-        background-color: black;
-        color: lightsalmon;
+        color: grey;
         cursor: pointer;
         font-size: 14px;
         font-weight: 100;
     }
 
     ::placeholder {
-        color: lightsalmon;
+        color: grey;
         font-size: 12px;
     }
 
