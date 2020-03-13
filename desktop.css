@@ -10,12 +10,10 @@
     
     .link {
         display: inline-block;
-        margin: 0 15px;
     }
     
     nav {
         font-family:'Karla';
-        font-size: 10px;
         display: inline-block;
     }
     
@@ -43,10 +41,9 @@
     }
     
     .topbar {
-        padding: 5px 0;
-        text-transform: uppercase;
-        font-family: 'Karla', sans-serif;
-        letter-spacing: 5px;
+        padding: 0 20px;
+        font-family: 'Karla';
+        letter-spacing: 7px;
         text-align: center;
         color: white;
         background: black;
@@ -56,8 +53,8 @@
     
     .menu-item {
         display: inline-block;
-        margin: 20px;
-        font-size: 15px;
+        margin: 30px;
+        font-size: 20px;
     }
 
     .menu-home, .menu-auteur, .menu-contact {
@@ -207,7 +204,6 @@
         color:#555;
         margin-bottom: 20%;
         cursor: pointer;
-<<<<<<< HEAD
         margin-left: 25%;
         }
     
@@ -219,29 +215,19 @@
         }
     
     .sousconteneur {
-=======
         margin-left: 20%;
         padding-left: 38px;
->>>>>>> 5feb0ae7465f898afdabf67c0eb54e580a352ee2
         display: flex;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> 5feb0ae7465f898afdabf67c0eb54e580a352ee2
     .conteneur2 {
         display:flex;
         flex-direction: row;
         justify-content: center;
         width: 80%;
         margin: auto;
-<<<<<<< HEAD
         margin-top: 10%;
         }
-=======
-    }
->>>>>>> 5feb0ae7465f898afdabf67c0eb54e580a352ee2
 
     .sousconteneur {
         display: flex;
