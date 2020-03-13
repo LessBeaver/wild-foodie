@@ -235,6 +235,10 @@
         margin:auto;
     }
 
+    .recettedumoisarticle ul {
+        margin-bottom: 10px;
+    }
+
     .conteneur_recette {
         width: 80%;
         text-align: justify;
