@@ -179,7 +179,7 @@
     .recettedumois {
         width: 45%;
         height: auto;
-        margin-bottom: 1%;
+        margin-bottom: 2%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -195,23 +195,23 @@
         }
         
     .bouton {
-        width: 15%;
+        width: 25%;
         font-size: 30px;
-        border:none;
-        padding:6px 0 6px 0;
+        border: none;
         border-radius:2px;
         box-shadow:3px 3px 12px #999;
         background:#fff;
         color:#555;
-        margin-bottom: 10%;
+        margin-bottom: 20%;
         cursor: pointer;
-        margin-left: 20%;
+        margin-left: 25%;
         }
     
     .conteneur2 {
         display:flex;
         flex-direction: row;
         justify-content: center;
+        margin-top: 50px;
         }
     
     .sousconteneur {
@@ -221,20 +221,6 @@
         margin-left: 10px;
         margin-right: 10px;
     }
-    
-    .bouton {
-        width: 15%;
-        font-size: 30px;
-        border:none;
-        padding:6px 0 6px 0;
-        border-radius:2px;
-        box-shadow:3px 3px 12px #999;
-        background:#fff;
-        color:#555;
-        margin-bottom: 10%;
-        cursor: pointer;
-        margin-left: 20%;
-        }
 
     .conteneur2 {
         display:flex;
@@ -242,6 +228,7 @@
         justify-content: center;
         width: 80%;
         margin: auto;
+        margin-top: 10%;
         }
 
     .sousconteneur {
