@@ -16,10 +16,12 @@
     
     .link {
         display: inline-block;
+        margin: 0 15px;
     }
     
     nav {
         font-family:'Karla';
+        font-size: 10px;
         display: inline-block;
     }
     
@@ -47,9 +49,10 @@
     }
     
     .topbar {
-        padding: 0 20px;
-        font-family: 'Karla';
-        letter-spacing: 7px;
+        padding: 5px 0;
+        text-transform: uppercase;
+        font-family: 'Karla', sans-serif;
+        letter-spacing: 5px;
         text-align: center;
         color: white;
         background: black;
@@ -59,8 +62,8 @@
     
     .menu-item {
         display: inline-block;
-        margin: 30px;
-        font-size: 20px;
+        margin: 20px;
+        font-size: 15px;
     }
 
     .menu-home, .menu-auteur, .menu-contact {
@@ -100,7 +103,7 @@
     
     .titre-wild, .titre-contact, .titre-auteur {
         font-family: 'Bilbo Swash Caps';
-        font-size: 120px;
+        font-size: 70px;
         color: white;
     }
 
@@ -185,7 +188,7 @@
     .recettedumois {
         width: 45%;
         height: auto;
-        margin-bottom: 2%;
+        margin-bottom: 1%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -201,39 +204,28 @@
         }
         
     .bouton {
-        width: 25%;
+        width: 15%;
         font-size: 30px;
-        border: none;
+        border:none;
+        padding:6px 0 6px 0;
         border-radius:2px;
         box-shadow:3px 3px 12px #999;
         background:#fff;
         color:#555;
-        margin-bottom: 20%;
+        margin-bottom: 10%;
         cursor: pointer;
-        margin-left: 25%;
-        }
-    
-    .conteneur2 {
-        display:flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 50px;
-        }
-    
-    .sousconteneur {
         margin-left: 20%;
         padding-left: 38px;
         display: flex;
     }
-
+    
     .conteneur2 {
         display:flex;
         flex-direction: row;
         justify-content: center;
         width: 80%;
         margin: auto;
-        margin-top: 10%;
-        }
+    }
 
     .sousconteneur {
         display: flex;
@@ -317,7 +309,7 @@
         width: 60%;
         margin: 40px auto;
         height: 500px;
-        border: 1px solid black;
+        border: 2px solid black;
     }
 
     .form_container {
