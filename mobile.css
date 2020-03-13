@@ -218,10 +218,9 @@
 
     .titrerecette {
         width: 100%;
-        margin-left: 5%;
         font-weight: bold;
         font-size: 18px;
-        margin-top: 10%;
+        margin: 10% 5%;
     }
 
     .conteneur_article {
