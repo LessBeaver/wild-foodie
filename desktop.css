@@ -1,4 +1,4 @@
-@media screen and (min-width:800px) {
+@media screen and (min-width:780px) {
 
     a {
         color: inherit;
@@ -456,3 +456,9 @@
     }
 
 }
+@media screen and (min-width: 800px) and (max-width: 1040px) {
+    .form_form {
+        margin-left: 40px;
+    }
+}
+
