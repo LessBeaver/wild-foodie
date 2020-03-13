@@ -63,7 +63,7 @@
     .menu-item {
         display: inline-block;
         margin: 20px;
-        font-size: 15px;
+        font-size: 25px;
     }
 
     .menu-home, .menu-auteur, .menu-contact {
@@ -103,7 +103,7 @@
     
     .titre-wild, .titre-contact, .titre-auteur {
         font-family: 'Bilbo Swash Caps';
-        font-size: 70px;
+        font-size: 120px;
         color: white;
     }
 
