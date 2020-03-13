@@ -1,5 +1,11 @@
 @media screen and (min-width:780px) {
 
+    * {
+        box-sizing: border-box;
+        margin: 0;
+    }
+    
+
     /* NAVBAR */
 
     a {
@@ -251,6 +257,7 @@
         width: 60%;
         font-size: 18px;
         text-align: center;
+        margin-bottom: 10%;
     }
 
     /* ARTICLE */
@@ -326,7 +333,7 @@
     }
 
     .form_title_desktop {
-        font-size: 30px;
+        font-size: 33px;
         font-weight: bold;
         margin: 55px 0 0 15%;
     }
