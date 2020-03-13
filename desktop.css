@@ -209,6 +209,8 @@
         margin-bottom: 10%;
         cursor: pointer;
         margin-left: 20%;
+        padding-left: 38px;
+        display: flex;
     }
     
     .conteneur2 {
