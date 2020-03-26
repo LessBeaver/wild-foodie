@@ -1,6 +1,11 @@
-    /* NAVBAR JS */
+   body {
+       color: #FEFEE2;
+       font-family: "Karla";
+   } 
+   
+   /* NAVBAR JS */
     
-    .cursor,
+    #nav .cursor,
     .follow {
         position: absolute;
         pointer-events: none;
@@ -32,8 +37,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 1rem 2rem;
         margin: 4rem;
+        padding: 1rem 2rem;
         color: gold;
         cursor: pointer;
         text-transform: uppercase;
@@ -42,7 +47,8 @@
     }
 
     .buttonH:hover {
-        color: white;
+        color: #ffffff;
+        font-weight: 500;
     }
 
 @media screen and (min-width:780px) {
@@ -102,30 +108,11 @@
       }
     
     .menu-item {
+        color: #ffffffd0;
         display: inline-block;
         margin: 20px;
         font-size: 25px;
     }
-
-/*     .menu-home, .menu-auteur, .menu-contact {
-        border: solid 1px #C89446;
-        padding: 7px 10px;
-        transition-property: color, background-color;
-        margin-top: 5px;
-    } */
-
-/*     .menu-recette {
-        border: solid 1px #C89446;
-        padding: 7px 10px;
-        transition-property: color, background-color;
-        margin-top: 5px;
-    } */
-    
-/*     .topbar a:hover {
-        color: gold;
-        text-decoration: underline;
-    } */
-    
 
     /* PAGE AUTEUR */
     
@@ -204,10 +191,6 @@
     }
 
     /*BODY */
-
-    body {
-        font-family: "Karla";
-    }
 
     .conteneur1 {
         display:flex;
@@ -511,6 +494,7 @@
         background-color: black;
         width: 100%;
         height: 100px;
+        padding: 15px 0;
     }
 
     .footer {
