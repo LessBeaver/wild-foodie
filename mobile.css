@@ -81,32 +81,75 @@
         display:flex;
         flex-direction: column;
         width: 100%;
-        margin-left: 5%;
-        margin-right: 5%;
         align-content: center;
     }
 
     .titre1 {
         width: 100%;
-        margin-left: 5%;
-        margin-right: 5%;
-        font-size: 19px;
+        font-size: 20px;
         word-spacing: 5px;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        margin-left: 5%;
     }
 
     .recettedumois {
+        font-family: 'Source Sans Pro', sans-serif;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 1%;
+        margin-left: auto;
+        margin-right: auto;
         width: 90%;
-        height: auto;
-        margin-bottom: 2%;
-    }
-
+        color: #000000;
+        text-align: left;
+        font-size: 16px;
+        background-color: #fff;
+      }
+      
+      .recettedumois * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all 0.45s ease;
+        transition: all 0.45s ease;
+      }
+      
+      .recettedumois img {
+        vertical-align: top;
+        max-width: 100%;
+        backface-visibility: hidden;
+      }
+      
+      .recettedumois figcaption {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        align-items: center;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      .recettedumois h3 {
+        margin: 0;
+        opacity: 0;
+        letter-spacing: 1px;
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        text-transform: uppercase;
+        font-weight: 400;
+      }
+      
     .descriptif {
         font-size: medium;
         width: 90%;
         text-align: justify;
         line-height: 20px;
-        margin-bottom: 5%;
-        margin-left: 0;
+        margin-bottom: 10%;
+        margin-left: 5%;
     }
 
     .bouton {
@@ -124,27 +167,28 @@
         margin-top: 20%;
         display:flex;
         flex-direction: column;
-        margin-left: 2%;
-        margin-right: 2%;
     }
 
     .sousconteneur {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 100%;
         margin-bottom: 25px;
     }
 
     .imagesarticles {
-        width: 100%;
+        width: 90%;
+        margin: auto; 
         text-align: justify;
         cursor: pointer;
     }
 
     p {
-        width: 60%;
-        margin-left: 10px;
-        font-size: 15px;
+        width: 65%;
+        font-size: 18px;
+        text-align: center;
+        margin: auto; 
+        margin-top: 2%;
     }
 
     .imagesarticles:hover {
@@ -217,10 +261,12 @@
     /* ARTICLE MOBILE */
 
     .titrerecette {
-        width: 100%;
+        width: 90%;
         font-weight: bold;
         font-size: 18px;
-        margin: 10% 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 10%;
     }
 
     .conteneur_article {
@@ -231,9 +277,12 @@
 
     .recettedumoisarticle {
         width: 90%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
         height: auto;
-        margin: 10px 0;
     }
+    
 
     .recettedumoisarticle ul {
         margin-bottom: 10px;
@@ -241,7 +290,7 @@
     }
 
     .conteneur_recette {
-        width: 80%;
+        width: 90%;
         text-align: justify;
     }
 
