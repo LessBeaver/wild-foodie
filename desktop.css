@@ -1,5 +1,5 @@
     /* NAVBAR JS */
-
+    
     .cursor,
     .follow {
         position: absolute;
@@ -10,13 +10,13 @@
     }
 
     .cursor {
-        background-color: gold;
+        background-color: #eeba11d8;
         border-radius: 100%;
     }
 
     .follow {
         padding: 2rem;
-        border: 0.1rem solid gold;
+        border: 0.1rem solid #eeba11d8;
         transition: all 0.2s ease-out;
         border-radius: 100%;
     }
@@ -44,7 +44,6 @@
     .buttonH:hover {
         color: white;
     }
-
 
 @media screen and (min-width:780px) {
 
