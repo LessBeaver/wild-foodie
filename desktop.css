@@ -1,5 +1,5 @@
    body {
-       color: #FEFEE2;
+       color: black;
        font-family: "Karla";
    } 
    
@@ -114,7 +114,7 @@
         font-size: 25px;
         cursor: pointer;
     }
-    
+
     .menu-home, .menu-auteur, .menu-contact {
         border: solid 1px #C89446;
         padding: 7px 10px;
