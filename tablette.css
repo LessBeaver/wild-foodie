@@ -3,8 +3,55 @@ body {
     font-family: "Karla";
 } 
 
+
 @media screen and (min-width: 360px) and (max-width: 800px) {
 
+    /* NAVBAR JS */
+
+    #nav .cursor,
+    .follow {
+        position: absolute;
+        pointer-events: none;
+        width: 0.4rem;
+        height: 0.4rem;
+        transform: translate(-50%, -50%);
+    }
+
+    .cursor {
+        background-color: #eeba11d8;
+        border-radius: 100%;
+    }
+
+    .follow {
+        padding: 2rem;
+        border: 0.1rem solid #eeba11d8;
+        transition: all 0.2s ease-out;
+        border-radius: 100%;
+    }
+
+    .follow.on-focus {
+        transform: translate(-0.55rem, -0.55rem);
+        border: 0.1rem solid gold;
+        border-radius: 0%;
+        padding: 0.46rem;
+    }
+
+    .buttonH {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: grey;
+    }
+
+    .buttonH:hover {
+        color: #ffffff;
+        font-weight: 500;
+    }
+    
     /* NAVBAR */
 
     a {
@@ -65,23 +112,6 @@ body {
         font-size: 15px;
     }
 
-    .menu-home {
-        border: solid 1px #C89446;
-        padding: 7px 10px;
-        transition-property: color, background-color;
-        margin-top: 5px;
-    }
-
-    .menu-recette, .menu-auteur, .menu-contact {
-        border: solid 1px #C89446;
-        padding: 7px 10px;
-        transition-property: color, background-color;
-        margin-top: 5px;
-    }
-    
-    .topbar a:hover {
-        color: gold;
-    }
 
     /*BODY INDEX*/
 
@@ -453,6 +483,52 @@ body {
 
 @media screen and (min-width: 370px) and (max-width: 700px) {
 
+    /* NAVBAR JS */
+
+    #nav .cursor,
+    .follow {
+        position: absolute;
+        pointer-events: none;
+        width: 0.4rem;
+        height: 0.4rem;
+        transform: translate(-50%, -50%);
+    }
+
+    .cursor {
+        background-color: #eeba11d8;
+        border-radius: 100%;
+    }
+
+    .follow {
+        padding: 2rem;
+        border: 0.1rem solid #eeba11d8;
+        transition: all 0.2s ease-out;
+        border-radius: 100%;
+    }
+
+    .follow.on-focus {
+        transform: translate(-0.55rem, -0.55rem);
+        border: 0.1rem solid gold;
+        border-radius: 0%;
+        padding: 0.46rem;
+    }
+
+    .buttonH {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: grey;
+    }
+
+    .buttonH:hover {
+        color: #ffffff;
+        font-weight: 500;
+    }
+
     /* FORMULAIRE */
 
     .form_border {
@@ -519,6 +595,52 @@ body {
 
 @media screen and (min-width: 700px) and (max-width: 799px) {
 
+
+    /* NAVBAR JS */
+
+    #nav .cursor,
+    .follow {
+        position: absolute;
+        pointer-events: none;
+        width: 0.4rem;
+        height: 0.4rem;
+        transform: translate(-50%, -50%);
+    }
+
+    .cursor {
+        background-color: #eeba11d8;
+        border-radius: 100%;
+    }
+
+    .follow {
+        padding: 2rem;
+        border: 0.1rem solid #eeba11d8;
+        transition: all 0.2s ease-out;
+        border-radius: 100%;
+    }
+
+    .follow.on-focus {
+        transform: translate(-0.55rem, -0.55rem);
+        border: 0.1rem solid gold;
+        border-radius: 0%;
+        padding: 0.46rem;
+    }
+
+    .buttonH {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: grey;
+    }
+
+    .buttonH:hover {
+        color: #ffffff;
+        font-weight: 500;
+    }
     /* FORMULAIRE */
 
     .form_border {
