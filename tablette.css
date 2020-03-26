@@ -102,14 +102,82 @@
         margin-right: 15%;
         margin-bottom: 5%;
     }
- 
+
+
+
     .recettedumois {
-        width: 45%;
-        height: auto;
+        font-family: 'Source Sans Pro', sans-serif;
+        position: relative;
+        overflow: hidden;
         margin-bottom: 1%;
         margin-left: auto;
         margin-right: auto;
-    }
+        min-width: 230px;
+        max-width: 315px;
+        width: 45%;
+        color: #000000;
+        text-align: left;
+        font-size: 16px;
+        background-color: #fff;
+      }
+      
+      .recettedumois * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all 0.45s ease;
+        transition: all 0.45s ease;
+      }
+      
+      .recettedumois img {
+        vertical-align: top;
+        max-width: 100%;
+        backface-visibility: hidden;
+      }
+      
+      .recettedumois figcaption {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        align-items: center;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      .recettedumois h3 {
+        margin: 0;
+        opacity: 0;
+        letter-spacing: 1px;
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        text-transform: uppercase;
+        font-weight: 400;
+      }
+      
+      .recettedumois a {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+      }
+      
+      .recettedumois:hover > img,
+      .recettedumois.hover > img {
+        opacity: 0.1;
+      }
+      
+      .recettedumois:hover h3,
+      .recettedumois.hover h3 {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+      }
+      
 
     .descriptif {
         font-size: 18px;
