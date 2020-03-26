@@ -1,5 +1,57 @@
+body {
+    color: #FEFEE2;
+    font-family: "Karla";
+} 
+
+
 @media screen and (min-width: 360px) and (max-width: 800px) {
 
+    /* NAVBAR JS */
+
+    #nav .cursor,
+    .follow {
+        position: absolute;
+        pointer-events: none;
+        width: 0.4rem;
+        height: 0.4rem;
+        transform: translate(-50%, -50%);
+    }
+
+    .cursor {
+        background-color: #eeba11d8;
+        border-radius: 100%;
+    }
+
+    .follow {
+        padding: 2rem;
+        border: 0.1rem solid #eeba11d8;
+        transition: all 0.2s ease-out;
+        border-radius: 100%;
+    }
+
+    .follow.on-focus {
+        transform: translate(-0.55rem, -0.55rem);
+        border: 0.1rem solid gold;
+        border-radius: 0%;
+        padding: 0.46rem;
+    }
+
+    .buttonH {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: grey;
+    }
+
+    .buttonH:hover {
+        color: #ffffff;
+        font-weight: 500;
+    }
+    
     /* NAVBAR */
 
     a {
@@ -60,23 +112,6 @@
         font-size: 15px;
     }
 
-    .menu-home {
-        border: solid 1px #C89446;
-        padding: 7px 10px;
-        transition-property: color, background-color;
-        margin-top: 5px;
-    }
-
-    .menu-recette, .menu-auteur, .menu-contact {
-        border: solid 1px #C89446;
-        padding: 7px 10px;
-        transition-property: color, background-color;
-        margin-top: 5px;
-    }
-    
-    .topbar a:hover {
-        color: gold;
-    }
 
     /* NEWSLETTER MODAL 
 .content {
@@ -199,14 +234,82 @@
         margin-right: 15%;
         margin-bottom: 5%;
     }
- 
+
+
+
     .recettedumois {
-        width: 45%;
-        height: auto;
+        font-family: 'Source Sans Pro', sans-serif;
+        position: relative;
+        overflow: hidden;
         margin-bottom: 1%;
         margin-left: auto;
         margin-right: auto;
-    }
+        min-width: 230px;
+        max-width: 315px;
+        width: 45%;
+        color: #000000;
+        text-align: left;
+        font-size: 16px;
+        background-color: #fff;
+      }
+      
+      .recettedumois * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all 0.45s ease;
+        transition: all 0.45s ease;
+      }
+      
+      .recettedumois img {
+        vertical-align: top;
+        max-width: 100%;
+        backface-visibility: hidden;
+      }
+      
+      .recettedumois figcaption {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        align-items: center;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      .recettedumois h3 {
+        margin: 0;
+        opacity: 0;
+        letter-spacing: 1px;
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        text-transform: uppercase;
+        font-weight: 400;
+      }
+      
+      .recettedumois a {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+      }
+      
+      .recettedumois:hover > img,
+      .recettedumois.hover > img {
+        opacity: 0.1;
+      }
+      
+      .recettedumois:hover h3,
+      .recettedumois.hover h3 {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+      }
+      
 
     .descriptif {
         font-size: 18px;
@@ -477,6 +580,52 @@
 
 @media screen and (min-width: 370px) and (max-width: 700px) {
 
+    /* NAVBAR JS */
+
+    #nav .cursor,
+    .follow {
+        position: absolute;
+        pointer-events: none;
+        width: 0.4rem;
+        height: 0.4rem;
+        transform: translate(-50%, -50%);
+    }
+
+    .cursor {
+        background-color: #eeba11d8;
+        border-radius: 100%;
+    }
+
+    .follow {
+        padding: 2rem;
+        border: 0.1rem solid #eeba11d8;
+        transition: all 0.2s ease-out;
+        border-radius: 100%;
+    }
+
+    .follow.on-focus {
+        transform: translate(-0.55rem, -0.55rem);
+        border: 0.1rem solid gold;
+        border-radius: 0%;
+        padding: 0.46rem;
+    }
+
+    .buttonH {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: grey;
+    }
+
+    .buttonH:hover {
+        color: #ffffff;
+        font-weight: 500;
+    }
+
     /* FORMULAIRE */
 
     .form_border {
@@ -543,6 +692,52 @@
 
 @media screen and (min-width: 700px) and (max-width: 799px) {
 
+
+    /* NAVBAR JS */
+
+    #nav .cursor,
+    .follow {
+        position: absolute;
+        pointer-events: none;
+        width: 0.4rem;
+        height: 0.4rem;
+        transform: translate(-50%, -50%);
+    }
+
+    .cursor {
+        background-color: #eeba11d8;
+        border-radius: 100%;
+    }
+
+    .follow {
+        padding: 2rem;
+        border: 0.1rem solid #eeba11d8;
+        transition: all 0.2s ease-out;
+        border-radius: 100%;
+    }
+
+    .follow.on-focus {
+        transform: translate(-0.55rem, -0.55rem);
+        border: 0.1rem solid gold;
+        border-radius: 0%;
+        padding: 0.46rem;
+    }
+
+    .buttonH {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: grey;
+    }
+
+    .buttonH:hover {
+        color: #ffffff;
+        font-weight: 500;
+    }
     /* FORMULAIRE */
 
     .form_border {
