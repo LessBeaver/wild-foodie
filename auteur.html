@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="tablette.css" media="screen and (min-width: 370px) and (max-width: 800px)">
         <link rel="stylesheet" href="desktop.css" media="screen and (min-width:800px)">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="newsletter.css">
         <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps' rel='stylesheet'>
     </head>
@@ -19,12 +20,34 @@
                 <a href="auteur.html" class="menu-item menu-auteur">À PROPOS</a>
                 <a href="recettes-items.html" class="menu-item">RECETTES</a>
                 <a href="contact.html" class="menu-item">CONTACT</a>
+                <a id="open-modal" class="newsletter menu-item">NEWSLETTER</a>
             </nav>
         </div>
         <div class="slogan-auteur">
             <strong class="titre-auteur">À propos</strong>
         </div>
     </header>
+
+<!-- NEWSLETTER-->
+<div id="modal" class="modal">
+    <div class ="modal-inner content center">
+        <h2 class="title-newsletter">S'inscrire à la newsletter de Wild Foodie</h2>
+        <div class="form-newletter">
+            <input type="firstname" name="firstname" id="firstname" placeholder="VOTRE PRÉNOM" class="input-newsletter">
+            <input type="email" name="email" id="email" placeholder="VOTRE EMAIL" class="input-newsletter">
+            <button id="close-modal" class="bton">Quitter</button>
+            <button id="quit-modal" class="bton">Valider</button>
+        </div>
+    </div>
+</div>
+<div id="modal2" class="modal2">
+    <div class ="modal-inner content center">
+        <h2 class="title-newsletter">Merci ! À bientôt pour de nouvelles recettes !</h2>
+        <button id="close-modal2" class="bton">Quitter</button>
+    </div> 
+</div>
+<script src="newsletter.js"></script>
+<!--FIN NEWSLETTER-->
 
     <section>
         <div class="desk-div">
