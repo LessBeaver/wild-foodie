@@ -285,11 +285,12 @@ body {
       
     .descriptif {
         font-size: medium;
-        width: 90%;
+        width: 65%;
         text-align: justify;
         line-height: 20px;
         margin-bottom: 10%;
         margin-left: 5%;
+        margin-top: 2%;
     }
 
     .bouton {
@@ -323,20 +324,12 @@ body {
         cursor: pointer;
     }
 
-    p {
-        width: 65%;
-        font-size: 18px;
-        text-align: center;
-        margin: auto; 
-        margin-top: 2%;
-    }
-
     .imagesarticles:hover {
         opacity: 0,6;
     }
 
     /* AUTEUR */
-    
+
     .slogan {
         padding: 50px 0 30px 0;
         text-align: center;
@@ -386,7 +379,6 @@ body {
     }
 
     .txt-auteur, .txt-debut {
-        margin: auto;
         text-align: justify;
     }
 
@@ -416,22 +408,20 @@ body {
     }
 
     .recettedumoisarticle {
-        width: 90%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        margin-left: 5%;
+        width: 88%;
+        margin: 5% auto;
         height: auto;
     }
-    
 
     .recettedumoisarticle ul {
         margin-bottom: 10px;
-
     }
 
     .conteneur_recette {
-        width: 90%;
+        width: 88%;
         text-align: justify;
+        margin: 0 auto;
+        padding-left: 0;
     }
 
     .soustitre {
