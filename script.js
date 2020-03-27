@@ -37,3 +37,20 @@ document.body.style.cursor = "none";
             }
         });
     };
+
+
+const recipes = document.getElementsByClassName("sousconteneur");
+
+const filter = document.getElementById("mealTypeFilter"); 
+
+recipes[0].style.display = "none"
+
+function updateRecipesView() {
+    for(let element of recipes) {
+        if(element.dataset.mealType !== filter.value) {
+            element.style.display = "none";
+        } else {
+            element.style.display = "flex";
+        }   
+    }
+};
