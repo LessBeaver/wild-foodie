@@ -1,10 +1,10 @@
 document.body.style.cursor = "none";
 
-    var cursor = document.createElement("div");
+    var cursor = document.createElement("nav");
     cursor.classList.add("cursor");
     document.body.appendChild(cursor);
 
-    var follow = document.createElement("div");
+    var follow = document.createElement("nav");
     follow.classList.add("follow");
     document.body.appendChild(follow);
 
