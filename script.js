@@ -14,26 +14,28 @@ document.body.style.cursor = "none";
         obj.style.left = event.clientX + "px";
     }
 
+if (cursor) {
+    window.addEventListener("mousemove", function(event) {
+        var e = event;
+        var t = e.target;
+        var f = follow;
+        var c = cursor;
 
-    if (cursor) {
-        window.addEventListener("mousemove", function(event) {
-            var e = event;
-            var t = e.target;
-            var f = follow;
-            var c = cursor;
+        if (t.tagName == "A") {
+            c.style.backgroundColor = "transparent";
 
-            if (t.tagName == "A") {
-                c.style.backgroundColor = "transparent";
+            f.style.top = t.offsetTop + "px";
+            f.style.left = t.offsetLeft + "px";
+            f.style.width = t.clientWidth + "px";
+            f.style.height = t.clientHeight + "px";
 
-                f.style.top = t.offsetTop + "px";
-                f.style.left = t.offsetLeft + "px";
-                f.style.width = t.clientWidth + "px";
-                f.style.height = t.clientHeight + "px";
+            f.classList.add("on-focus");
+        }
+    });
+};
 
-                f.classList.add("on-focus");
-            }
-        });
-    };
+
+
 
 
 const recipes = document.getElementsByClassName("sousconteneur");
