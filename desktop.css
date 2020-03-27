@@ -431,7 +431,7 @@
     #mealTypeFilter {
         width: 9%; 
         display : flex; 
-        margin: auto;
+        margin-left: 80%;
         background-color: #555;
         color: white;
         box-shadow:3px 3px 12px #999;
