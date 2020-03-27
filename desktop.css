@@ -2,10 +2,22 @@
        color: black;
        font-family: "Karla";
    } 
+@media screen and (min-width: 790px) and (max-width: 1320px)  {
+    .buttonH {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: grey;
+    }
+}
 
-   
-   /* NAVBAR JS */
-    
+@media screen and (min-width:780px) {
+    /* NAVBAR JS */
+
     #nav .cursor,
     .follow {
         position: absolute;
@@ -39,7 +51,6 @@
         justify-content: center;
         align-items: center;
         margin: 4rem;
-        padding: 1rem 2rem;
         color: gold;
         cursor: pointer;
         text-transform: uppercase;
@@ -51,8 +62,7 @@
         color: #ffffff;
         font-weight: 500;
     }
-
-@media screen and (min-width:780px) {
+   
 
     /* NAVBAR */
 
