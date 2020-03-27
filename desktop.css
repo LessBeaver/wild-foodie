@@ -17,8 +17,8 @@
 
 @media screen and (min-width:780px) {
     /* NAVBAR JS */
-
-    #nav .cursor,
+    
+    .cursor,
     .follow {
         position: absolute;
         pointer-events: none;
@@ -322,6 +322,7 @@
         font-family: 'Source Sans Pro', sans-serif;
         position: relative;
         overflow: hidden;
+        margin-top: 20px;
         margin-bottom: 1%;
         margin-left: auto;
         margin-right: auto;
@@ -426,19 +427,6 @@
 
     #change-theme:hover {
         text-decoration: underline;
-    }
-
-    #mealTypeFilter {
-        width: 9%; 
-        display : flex; 
-        margin-left: 80%;
-        background-color: #555;
-        color: white;
-        box-shadow:3px 3px 12px #999;
-        font-size: 20px;
-        padding:6px 0 6px 0;
-        margin-bottom: 10%;
-    }
     }
     
     .conteneur2 {
