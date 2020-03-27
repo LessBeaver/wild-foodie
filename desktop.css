@@ -1,4 +1,4 @@
-   body {
+    body {
        color: black;
        font-family: "Karla";
    } 
@@ -409,19 +409,27 @@
         }
         
     .bouton {
-        width: 15%;
-        font-size: 30px;
-        border:none;
+        width: 9%;
+        font-size: 26px;
         padding:6px 0 6px 0;
-        border-radius:2px;
-        box-shadow:3px 3px 12px #999;
-        background:#fff;
-        color:#555;
         margin-bottom: 10%;
         cursor: pointer;
         margin-left: 65%;
         padding-left: 23px;
         display: flex;
+    }
+
+    #change-theme {
+        font: inherit; 
+        border: 0;
+        outline: 0;
+        background-color: #555;
+        color: white;
+        box-shadow:3px 3px 12px #999;
+    }
+
+    #change-theme:hover {
+        text-decoration: underline;
     }
     
     .conteneur2 {
