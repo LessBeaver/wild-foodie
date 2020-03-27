@@ -1,10 +1,10 @@
 document.body.style.cursor = "none";
 
-    var cursor = document.createElement("nav");
+    var cursor = document.createElement("div");
     cursor.classList.add("cursor");
     document.body.appendChild(cursor);
 
-    var follow = document.createElement("nav");
+    var follow = document.createElement("div");
     follow.classList.add("follow");
     document.body.appendChild(follow);
 
@@ -37,3 +37,20 @@ document.body.style.cursor = "none";
             }
         });
     };
+
+
+const recipes = document.getElementsByClassName("sousconteneur");
+
+const filter = document.getElementById("mealTypeFilter"); 
+
+recipes[0].style.display = "none"
+
+function updateRecipesView() {
+    for(let element of recipes) {
+        if(element.dataset.mealType !== filter.value) {
+            element.style.display = "none";
+        } else {
+            element.style.display = "flex";
+        }   
+    }
+};
