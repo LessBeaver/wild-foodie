@@ -427,6 +427,19 @@
     #change-theme:hover {
         text-decoration: underline;
     }
+
+    #mealTypeFilter {
+        width: 9%; 
+        display : flex; 
+        margin: auto;
+        background-color: #555;
+        color: white;
+        box-shadow:3px 3px 12px #999;
+        font-size: 20px;
+        padding:6px 0 6px 0;
+        margin-bottom: 10%;
+    }
+    }
     
     .conteneur2 {
         display: flex;
