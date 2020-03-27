@@ -14,6 +14,7 @@ document.body.style.cursor = "none";
         obj.style.left = event.clientX + "px";
     }
 
+
     if (cursor) {
         window.addEventListener("mousemove", function(event) {
             var e = event;
@@ -30,10 +31,6 @@ document.body.style.cursor = "none";
                 f.style.height = t.clientHeight + "px";
 
                 f.classList.add("on-focus");
-            } else {
-                move(c, e);
-                move(f, e);
-                f.classList.remove("on-focus");
             }
         });
     };
