@@ -1,0 +1,830 @@
+body {
+    color: black;
+    font-family: "Karla";
+} 
+
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+
+    /* NAVBAR JS */
+
+    #nav .cursor,
+    .follow {
+        position: absolute;
+        pointer-events: none;
+        width: 0.4rem;
+        height: 0.4rem;
+        transform: translate(-50%, -50%);
+    }
+
+    .cursor {
+        background-color: #eeba11d8;
+        border-radius: 100%;
+    }
+
+    .follow {
+        padding: 2rem;
+        border: 0.1rem solid #eeba11d8;
+        transition: all 0.2s ease-out;
+        border-radius: 100%;
+    }
+
+    .follow.on-focus {
+        transform: translate(-0.55rem, -0.55rem);
+        border: 0.1rem solid gold;
+        border-radius: 0%;
+        padding: 0.46rem;
+    }
+
+    .buttonH {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: grey;
+    }
+
+    .buttonH:hover {
+        color: #ffffff;
+        font-weight: 500;
+    }
+    
+    /* NAVBAR */
+
+    a {
+        color: inherit;
+        text-decoration: none;
+        transition: color .3s;
+    }
+    
+    .link {
+        display: inline-block;
+        margin: 0 15px;
+    }
+    
+    nav {
+        font-family:'Karla';
+        font-size: 10px;
+        display: inline-block;
+    }
+    
+    .header {
+        background: 
+        linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
+        url(img/italie.jpg) center bottom / cover no-repeat;
+    }
+
+    .header-contact {
+        background: 
+        linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
+        url(img/pizza2.jpg) center center / cover no-repeat;
+    }
+
+    .header-recette {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
+        url(img/toast.jpg) center center / cover no-repeat;
+    }
+
+    .header-auteur {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
+        url(img/pasta1.jpg) 
+        center center / cover no-repeat;
+    }
+    
+    .topbar {
+        padding: 10px 0;
+        text-transform: uppercase;
+        font-family: 'Karla', sans-serif;
+        letter-spacing: 5px;
+        text-align: center;
+        color: white;
+        background: black;
+        opacity: 0.6;
+        font-weight: bold;
+        }
+    
+    .menu-item {
+        display: inline-block;
+        margin: 15px;
+        font-size: 15px;
+    }
+
+
+    /* NEWSLETTER MODAL */
+    .content {
+        max-width: 35%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding: 30px;
+        background: #fff;
+        border: 1px solid #ddd;
+    }
+    
+    .center {
+        text-align: center;
+    }
+        
+    .input-newsletter {
+        display: flex;
+        flex-direction : column;
+        max-width: 80%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        padding: 10px 12px;
+        font-weight: normal;
+        border: 2px solid #e2e2e2;
+        background-color: white;
+    }
+    
+    input.input-newsletter {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        border: 1px solid #C2C2C2;
+        box-shadow: 1px 1px 4px #EBEBEB;
+        -moz-box-shadow: 1px 1px 4px #EBEBEB;
+        -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        padding: 7px;
+        outline: none;
+    }
+  
+    .input-newsletter::placeholder {
+        color: #999999;
+        opacity: 1;
+    }
+    
+    .title-newsletter {
+        text-align: center;
+        letter-spacing: 3px;
+        font-size: 30px;
+        margin-bottom: 30px;
+        font-family: 'Karla', sans-serif;
+    }
+        
+    .bton {
+        font-family: 'Karla', sans-serif;
+        color: white !important;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: black;
+        padding: 8px;
+        margin: 10px;
+        border: 1px solid black !important;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        display: inline-block;
+        transition: all 0.4s ease 0s;
+    } 
+        
+    .bton:hover {
+        color: black !important;
+        background:white;
+        border-color: 1px solid black !important;    
+        transition: all 0.4s ease 0s; 
+    }
+        
+    .modal,.modal2 {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        display: none;
+        font-family: 'Karla', sans-serif;
+    }
+        
+    .modal-inner {
+        margin-top: 200px;
+        border-radius: 30px;
+    }
+
+    /*BODY INDEX*/
+
+    body {
+        font-family: "Karla";
+    }
+
+    .conteneur1 {
+        display:flex;
+        flex-direction: row;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        align-content: center;
+        margin: 0 15% 5% 15%;
+    }
+
+    .titre1 {
+        font-size: 35px;
+        text-align: center;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 5%;
+    }
+
+
+
+    .recettedumois {
+        font-family: 'Source Sans Pro', sans-serif;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 230px;
+        max-width: 315px;
+        width: 45%;
+        color: #000000;
+        text-align: left;
+        font-size: 16px;
+        background-color: #fff;
+      }
+      
+      .recettedumois * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all 0.45s ease;
+        transition: all 0.45s ease;
+      }
+      
+      .recettedumois img {
+        vertical-align: top;
+        max-width: 100%;
+        backface-visibility: hidden;
+      }
+      
+      .recettedumois figcaption {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        align-items: center;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      .recettedumois h3 {
+        margin: 0;
+        opacity: 0;
+        letter-spacing: 1px;
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        text-transform: uppercase;
+        font-weight: 400;
+      }
+      
+      .recettedumois a {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+      }
+      
+      .recettedumois:hover > img,
+      .recettedumois.hover > img {
+        opacity: 0.1;
+      }
+      
+      .recettedumois:hover h3,
+      .recettedumois.hover h3 {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+      }
+      
+
+    .descriptif {
+        font-size: 18px;
+        width: 70%;
+        text-align: justify;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: auto;
+    }
+
+    p {
+        width: 80%;
+        font-size: 20px;
+        text-align: center;
+    }
+        
+    .bouton {
+        border:none;
+        padding:8px 10px;
+        border-radius:2px;
+        box-shadow:3px 3px 12px #999;
+        background:#fff;
+        color:#555;
+        margin: 10px 0 0 56%;
+        cursor: pointer;
+    }
+
+    .conteneur2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: start;
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 10%; 
+    }
+
+    .sousconteneur {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        align-items: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .imagesarticles {
+        width: 80%;
+        cursor: pointer;
+    }
+
+    .imagesarticles:hover {
+        opacity : 0.6;
+    }
+
+    /* ARTICLE */
+
+    .titrerecette {
+        width: 100%;
+        font-weight: bold;
+        font-size: 21px;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .conteneur_article {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin-bottom: 5%;
+        margin: auto; 
+    }
+
+    .recettedumoisarticle {
+        width: 50%;
+        height: auto;
+        margin-bottom: 2%;
+        margin-right: 5%;
+        margin-left: 2%;
+    }
+
+    .conteneur_recette {
+        width: 80%;
+        text-align: justify;
+        margin:auto;
+        margin-bottom: 3%;
+        margin-top: 2%;
+    }
+
+    .soustitre {
+        list-style: none;
+        font-weight: bold;
+        text-decoration: underline;
+        margin-bottom: 5%;
+    }
+
+    /* PAGE AUTEUR */
+    
+    .slogan, .slogan-contact, .slogan-auteur {
+        padding: 70px 0 70px 0;
+        text-align: center;
+        font-weight: bold;
+        text-shadow: 2px 5px 2px black;
+      }
+    
+    .titre-wild, .titre-contact, .titre-auteur {
+        font-family: 'Bilbo Swash Caps';
+        font-size: 70px;
+        color: white;
+    }
+
+    .photo {
+        text-align: center;
+    }
+
+    .photo-auteur {
+        width: 50%;
+        height: auto;
+        margin-top: 20px;
+        box-shadow: 5px 5px 5px black;
+    }
+
+    .desk-div {
+        display: block;
+    }
+
+    .titre-presentation, .titre-debut {
+        text-align: center;
+        font-family: "Karla";
+        color: black;
+        text-shadow: 2px 2px 2px grey;
+    }
+
+    .txt-auteur, .txt-debut {
+        width: 60%;
+        margin: auto;
+        text-align: justify;
+    }
+
+    .txt-fin {
+        margin-bottom: 50px;
+    }
+
+    /* FORMULAIRE */ 
+
+    .form_border {
+        border: 1px solid black;
+        margin: 40px 10px;
+        box-shadow: 1px 1px 10px 10px lightgray;
+        background-image: url("https://zupimages.net/up/20/11/cby7.png");
+        background-position: center;
+        height: 420px;
+        background-repeat: no-repeat;
+        background-position-x: 20px;
+        background-position-y: 240px;
+        background-size: 160px;
+    }
+
+    .form_container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form_form {
+        width: 40%;
+        margin-left: 45%;
+    }
+
+    .form_title_desktop, .form_rat {
+        display: none;
+    }
+
+    .form_title {
+        margin: 6% 0 0 6%;
+        font-size: 24px;
+    }
+
+    .form {
+        font-family: 'Karla';
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form_content {
+        background: transparent;
+        border-radius: 0.7rem;
+        margin: 10px 0;
+        border: 1px solid black;
+    }
+
+    .form_name, .form_email {
+        height: 30px;
+    }
+
+    .form textarea {
+        width: 100%;
+        height: 80px;
+        border-radius: 0.7rem;
+    }
+
+    .form button {
+        width: 26%;
+        float: right;
+        border-radius: 0.7rem;
+        height: 28px;
+        background-color: transparent;
+        color: grey;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 100;
+    }
+
+    ::placeholder {
+        color: grey;
+        font-size: 12px;
+    }
+
+    /* FOOTER */
+
+    footer {
+        display: flex;
+        font-family: "Karla";
+        background-color: black;
+        width: 100%;
+        height: 140px;
+    }
+
+    .footer {
+        text-align: center;
+        list-style: none;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer a {
+        text-decoration: none;
+        color: #ffffff;
+        padding: 6px;
+    }
+
+    .block1 , .block2, .block3 {
+        width: 33%;
+        height: auto;
+        margin: 0;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        line-height: 1.7rem;
+    }
+
+    .block2 img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer a:hover {
+        color: gold;
+        text-decoration: none;
+    }
+
+}
+
+@media screen and (min-width: 370px) and (max-width: 700px) {
+
+    /* NAVBAR JS */
+
+    #nav .cursor,
+    .follow {
+        position: absolute;
+        pointer-events: none;
+        width: 0.4rem;
+        height: 0.4rem;
+        transform: translate(-50%, -50%);
+    }
+
+    .cursor {
+        background-color: #eeba11d8;
+        border-radius: 100%;
+    }
+
+    .follow {
+        padding: 2rem;
+        border: 0.1rem solid #eeba11d8;
+        transition: all 0.2s ease-out;
+        border-radius: 100%;
+    }
+
+    .follow.on-focus {
+        transform: translate(-0.55rem, -0.55rem);
+        border: 0.1rem solid gold;
+        border-radius: 0%;
+        padding: 0.46rem;
+    }
+
+    .buttonH {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: grey;
+    }
+
+    .buttonH:hover {
+        color: #ffffff;
+        font-weight: 500;
+    }
+
+    /* FORMULAIRE */
+
+    .form_border {
+        border: 1px solid black;
+        margin: 40px 10px;
+        box-shadow: 1px 1px 10px 10px lightgray;
+    }
+
+    .form_container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form_form {
+        margin-top: 20px;
+        width: 55%;
+        margin-left: 36%;
+    }
+
+    .form_title_desktop {
+        display: none;
+    }
+
+    .form_title {
+        margin: 8% 0 0 8%;
+        font-family: 'Karla';
+    }
+
+    .form_rat {
+        display: none;
+    }
+
+    .form_name, .form_email {
+        height: 30px;
+        padding-left: 10px;
+    }
+
+    .form textarea {
+        padding: 5px 0 0 10px;
+        width: 55%;
+        height: 80px;
+        border-radius: 0.7rem;
+    }
+
+    .form button {
+        width: 26%;
+        float: right;
+        border-radius: 0.7rem;
+        height: 28px;
+        background-color: transparent;
+        color: grey;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 100;
+    }
+
+    ::placeholder {
+        color: grey;
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (min-width: 700px) and (max-width: 799px) {
+
+
+    /* NAVBAR JS */
+
+    #nav .cursor,
+    .follow {
+        position: absolute;
+        pointer-events: none;
+        width: 0.4rem;
+        height: 0.4rem;
+        transform: translate(-50%, -50%);
+    }
+
+    .cursor {
+        background-color: #eeba11d8;
+        border-radius: 100%;
+    }
+
+    .follow {
+        padding: 2rem;
+        border: 0.1rem solid #eeba11d8;
+        transition: all 0.2s ease-out;
+        border-radius: 100%;
+    }
+
+    .follow.on-focus {
+        transform: translate(-0.55rem, -0.55rem);
+        border: 0.1rem solid gold;
+        border-radius: 0%;
+        padding: 0.46rem;
+    }
+
+    .buttonH {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: grey;
+    }
+
+    .buttonH:hover {
+        color: #ffffff;
+        font-weight: 500;
+    }
+    /* FORMULAIRE */
+
+    .form_border {
+        width: 60%;
+        margin: 40px auto;
+        height: 500px;
+        border: 1px solid black;
+    }
+
+    .form_container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form_title {
+        color: black;
+        margin-bottom: 0;
+    }
+
+    .form_title_desktop {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 55px 0 0 15%;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .form_form  {
+        font-family: 'Karla';
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 55px auto 0 auto;
+    }
+
+    .form_logo {
+        display: none;
+    }
+
+    .form_content {
+        border-radius: 0.3rem;
+        margin: 10px 0;
+        border: 1px solid #7d7373;
+        padding-left: 10px;
+    }
+
+    .form_rat {
+        margin-left: 25px;
+        width: 200px;
+    }
+
+    .form_rat img {
+        height: 450px;
+        width: 140%;
+        margin-top: -25px;
+    }
+
+    .form_name, .form_email {
+        height: 26px;
+    }
+
+    .form textarea {
+        width: 98%;
+        height: 100px;
+        border-radius: 0.3rem;
+        padding-top: 5px;
+    }
+
+    .form button {
+        color: #35689d;
+        width: 30%;
+        float: right;
+        border-radius: 0.3rem;
+        height: 28px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 100;
+        margin-left: auto;
+        margin-right: 10%;
+    }
+
+    ::placeholder {
+        color: #35689d;
+        font-size: 12px;
+    }
+}

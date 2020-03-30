@@ -1,0 +1,676 @@
+    body {
+       color: black;
+       font-family: "Karla";
+   } 
+@media screen and (min-width: 790px) and (max-width: 1320px)  {
+    .buttonH {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: grey;
+    }
+}
+
+@media screen and (min-width:780px) {
+    /* NAVBAR JS */
+    
+    .cursor,
+    .follow {
+        position: absolute;
+        pointer-events: none;
+        width: 0.4rem;
+        height: 0.4rem;
+        transform: translate(-50%, -50%);
+    }
+
+    .cursor {
+        background-color: #eeba11d8;
+        border-radius: 100%;
+    }
+
+    .follow {
+        padding: 2rem;
+        border: 0.1rem solid #eeba11d8;
+        transition: all 0.2s ease-out;
+        border-radius: 100%;
+    }
+
+    .follow.on-focus {
+        transform: translate(-0.55rem, -0.55rem);
+        border: 0.1rem solid gold;
+        border-radius: 0%;
+        padding: 0.46rem;
+    }
+
+    .buttonH {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4rem;
+        color: gold;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: grey;
+    }
+
+    .buttonH:hover {
+        color: #ffffff;
+        font-weight: 500;
+    }
+   
+
+    /* NAVBAR */
+
+    a {
+        color: inherit;
+        text-decoration: none;
+        transition: color .3s;
+    }
+    
+    .link {
+        display: inline-block;
+        margin: 0 15px;
+    }
+    
+    nav {
+        font-family:'Karla';
+        font-size: 10px;
+        display: inline-block;
+    }
+    
+    .header {
+        background: 
+        linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
+        url(img/italie.jpg) center bottom / cover no-repeat;
+    }
+
+    .header-contact {
+        background: 
+        linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
+        url(img/pizza2.jpg) center center / cover no-repeat;
+    }
+
+    .header-auteur {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
+        url(img/pasta1.jpg) 
+        center center / cover no-repeat;
+    }
+
+    .header-recette {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.92),rgba(54, 54, 54, 0.5) 39%, rgba(54, 54, 54, 0.5)),
+        url(img/toast.jpg) center center / cover no-repeat;
+    }
+    
+    .topbar {
+        padding: 5px 0;
+        text-transform: uppercase;
+        font-family: 'Karla', sans-serif;
+        letter-spacing: 5px;
+        text-align: center;
+        color: white;
+        background: black;
+        opacity: 0.6;
+        font-weight: bold;
+      }
+    
+    .menu-item {
+        color: #ffffffd0;
+        display: inline-block;
+        margin: 20px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    /* NEWSLETTER MODAL */
+    .content {
+        max-width: 35%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding: 30px;
+        background: #fff;
+        border: 1px solid #ddd;
+  }
+    
+    .center {
+        text-align: center;
+    }
+        
+    .input-newsletter {
+        display: flex;
+        flex-direction : column;
+        max-width: 80%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        padding: 10px 12px;
+        font-weight: normal;
+        border: 2px solid #e2e2e2;
+        background-color: white;
+    }
+    
+    input.input-newsletter {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        border: 1px solid #C2C2C2;
+        box-shadow: 1px 1px 4px #EBEBEB;
+        -moz-box-shadow: 1px 1px 4px #EBEBEB;
+        -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        padding: 7px;
+        outline: none;
+    }
+    
+    .input-newsletter::placeholder {
+        color: #999999;
+        opacity: 1;
+    }
+    
+    .title-newsletter {
+        text-align: center;
+        letter-spacing: 3px;
+        font-size: 30px;
+        margin-bottom: 30px;
+        font-family: 'Karla', sans-serif;
+    }
+        
+    .bton {
+        font-family: 'Karla', sans-serif;
+        color: white !important;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: black;
+        padding: 8px;
+        margin: 10px;
+        border: 1px solid black !important;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        display: inline-block;
+        transition: all 0.4s ease 0s;
+    } 
+        
+    .bton:hover {
+        color: black !important;
+        background:white;
+        border-color: 1px solid black !important;    
+        transition: all 0.4s ease 0s; 
+    }
+        
+    .modal,.modal2 {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        display: none;
+        font-family: 'Karla', sans-serif;
+    }
+        
+    .modal-inner {
+        margin-top: 200px;
+        border-radius: 30px;
+    }
+    
+  /* FIN NEWSLETTER MODAL */
+    
+
+    /* PAGE AUTEUR */
+    
+    .slogan-contact, .slogan-auteur{
+        padding: 100px 0 100px 0;
+        text-align: center;
+        font-weight: bold;
+        text-shadow: 2px 5px 2px black;
+    }
+
+    .slogan {
+        padding: 100px 0 100px 0;
+        text-align: center;
+        font-weight: bold;
+        text-shadow: 2px 5px 2px black;
+    }
+    
+    .titre-wild, .titre-contact, .titre-auteur {
+        font-family: 'Bilbo Swash Caps';
+        font-size: 120px;
+        color: white;
+    }
+
+    .photo {
+        text-align: center;
+    }
+
+    .photo-auteur {
+        width: 90%;
+        height: auto;
+        margin-top: 80px;
+        margin-left: 0;
+        box-shadow: 5px 5px 5px black;
+    }
+
+    .titre-presentation {
+        text-align: center;
+        font-family: "Karla";
+        color: black;
+        text-shadow: 2px 2px 2px grey;
+        margin-top: 40px;
+    }
+
+    .desk-div {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .txt-debut {
+        width: 100%;
+        text-align: justify;
+        margin-top: 70px;
+    }
+
+    .titre-debut {
+        text-align: left;
+        font-family: "Karla";
+        margin: 10px;
+        margin-top: 70px;
+        color: black;
+        text-shadow: 2px 2px 2px grey;
+    }
+
+    .txt-auteur {
+        width: 60%;
+        margin: auto;
+        text-align: justify;
+        margin-top: 40px;
+    }
+
+    .txt-fin {
+        margin-bottom: 50px;
+    }
+
+    /*BODY */
+
+    .conteneur1 {
+        display:flex;
+        flex-direction: row;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        align-content: center;
+    }
+
+    .titre1 {
+        font-size: 50px;
+        text-align: center;
+        width: 70%;
+        margin: 5% 15%;
+    }
+
+    .recettedumois {
+        font-family: 'Source Sans Pro', sans-serif;
+        position: relative;
+        overflow: hidden;
+        margin-top: 20px;
+        margin-bottom: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        color: #000000;
+        text-align: left;
+        font-size: 16px;
+        background-color: #fff;
+      }
+      
+      .recettedumois * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all 0.45s ease;
+        transition: all 0.45s ease;
+      }
+      
+      .recettedumois img {
+        vertical-align: top;
+        max-width: 100%;
+        backface-visibility: hidden;
+      }
+      
+      .recettedumois figcaption {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        align-items: center;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      .recettedumois h3 {
+        margin: 0;
+        opacity: 0;
+        letter-spacing: 1px;
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        text-transform: uppercase;
+        font-weight: 400;
+      }
+      
+      .recettedumois a {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+      }
+      
+      .recettedumois:hover > img,
+      .recettedumois.hover > img {
+        opacity: 0.1;
+      }
+      
+      .recettedumois:hover h3,
+      .recettedumois.hover h3 {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+      }
+      
+
+    .descriptif {
+        font-size: 20px;
+        width: 50%;
+        text-align: justify;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: auto;
+        line-height: 30px;
+        }
+        
+    .bouton {
+        width: 9%;
+        font-size: 26px;
+        padding:6px 0 6px 0;
+        margin-bottom: 10%;
+        border-radius: 2px;
+        box-shadow:3px 3px 12px #999;
+        background:#fff;
+        color:#555;
+        cursor: pointer;
+        padding-left: 23px;
+        display: flex;
+        margin: -160px 0 20% 60%;
+    }
+
+    #change-theme {
+        font: inherit; 
+        border: 0;
+        outline: 0;
+        background-color: #555;
+        color: white;
+        box-shadow:3px 3px 12px #999;
+    }
+
+    #change-theme:hover {
+        text-decoration: underline;
+    }
+    
+    .conteneur2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: start;
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 5%; 
+    }
+
+    .sousconteneur {
+        display: flex;
+        flex-direction: column;
+        width: 32%;
+        align-items: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+
+    .imagesarticles {
+        width: 80%;
+        cursor: pointer;
+    }
+
+    .imagesarticles:hover {
+        opacity : 0.6;
+    }
+
+    p {
+        width: 60%;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    /* ARTICLE */
+
+    .titrerecette {
+        width: 100%;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .conteneur_article {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+
+    .conteneur_article ul li {
+        line-height: 35px;
+    }
+
+    .recettedumoisarticle {
+        width: 40%;
+        height: auto;
+        margin-bottom: 1%;
+    }
+
+    .conteneur_recette {
+        width: 60%;
+        text-align: justify;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5%;
+    }
+
+    .conteneur_recette li {
+        line-height: 35px;
+    }
+
+    .soustitre {
+        list-style: none;
+        font-weight: bold;
+        text-decoration: underline;
+        margin-bottom: 2%;
+        font-size: 18px;
+    }
+
+    /* FORMULAIRE */ 
+
+    .form_border {
+        width: 60%;
+        margin: 40px auto;
+        height: 500px;
+        border: 2px solid black;
+    }
+
+    .form_container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form_title {
+        display: none;
+        color: white;
+        margin-bottom: 0;
+    }
+
+    .form_title_desktop {
+        font-size: 33px;
+        font-weight: bold;
+        margin: 55px 0 0 15%;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .form_form  {
+        font-family: 'Karla';
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 55px auto 0 auto;
+    }
+
+    .form_logo {
+        display: none;
+    }
+
+    .form_content {
+        border-radius: 0.3rem;
+        margin: 10px 0;
+        border: 1px solid #7d7373;
+        padding-left: 10px;
+    }
+
+    .form_rat {
+        margin-left: 25px;
+        width: 200px;
+    }
+
+    .form_rat img {
+        height: 450px;
+        width: 140%;
+        margin-top: -25px;
+    }
+
+    .form_name, .form_email {
+        height: 26px;
+    }
+
+    .form textarea {
+        width: 98%;
+        height: 100px;
+        border-radius: 0.3rem;
+        padding-top: 5px;
+    }
+
+    .form button {
+        color: #35689d;
+        width: 15%;
+        float: right;
+        border-radius: 0.3rem;
+        height: 28px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 100;
+        margin-left: auto;
+        margin-right: 10%;
+    }
+
+    ::placeholder {
+        color: #35689d;
+        font-size: 12px;
+    }
+
+    .footer a:hover {
+        color: gold;
+        text-decoration: none;
+    }
+
+    /* FOOTER */
+
+    footer {
+        display: flex;
+        font-family: "Karla";
+        background-color: black;
+        width: 100%;
+        height: 100px;
+        padding: 15px 0;
+    }
+
+    .footer {
+        text-align: center;
+        list-style: none;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer a {
+        text-decoration: none;
+        color: #ffffff;
+        padding: 6px;
+    }
+
+    .block1 , .block2, .block3 {
+        width: 33%;
+        height: auto;
+        margin: 0;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        line-height: 1.7rem;
+    }
+
+    .block2 img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .block2 {
+        order: 3;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+
+    .block3 {
+        margin-right: 30%;
+    }
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 1040px) {
+    .form_form {
+        margin-left: 40px;
+    }
+}
+

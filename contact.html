@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wild Foodie</title>
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 370px)">
+    <link rel="stylesheet" href="tablette.css" media="screen and (min-width: 370px) and (max-width: 800px)">
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width:800px)">
+    <link rel="stylesheet" href="newsletter.css">
+    <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header-contact">
+        <div class="topbar">
+            <nav class="menu">
+                <a href="index.html" class="menu-item buttonH">HOME</a>
+                <a href="auteur.html" class="menu-item buttonH">À PROPOS</a>
+                <a href="recettes-items.html" class="menu-item buttonH">RECETTES</a>
+                <a href="contact.html" class="menu-item menu-contact buttonH">CONTACT</a>
+                <a id="open-modal" class="newsletter menu-item buttonH">NEWSLETTER</a>
+            </nav>
+        </div>
+        <div class="slogan-contact">
+            <strong class="titre-contact">Contact</strong>
+        </div>
+        <!-- NEWSLETTER-->
+<div id="modal" class="modal">
+    <div class ="modal-inner content center">
+        <h2 class="title-newsletter">S'inscrire à la newsletter de Wild Foodie</h2>
+        <div class="form-newletter">
+            <input type="firstname" name="firstname" id="firstname" placeholder="VOTRE PRÉNOM" class="input-newsletter">
+            <input type="email" name="email" id="email" placeholder="VOTRE EMAIL" class="input-newsletter">
+            <button id="close-modal" class="bton">Quitter</button>
+            <button id="quit-modal" class="bton">Valider</button>
+        </div>
+    </div>
+</div>
+<div id="modal2" class="modal2">
+    <div class ="modal-inner content center">
+        <h2 class="title-newsletter">Merci ! À bientôt pour de nouvelles recettes !</h2>
+        <button id="close-modal2" class="bton">Quitter</button>
+    </div> 
+</div>
+<script src="newsletter.js"></script>
+<!--FIN NEWSLETTER-->
+    </header>
+
+    <section class="form_border">
+        <h3 class="form_title">Nous contacter</h3>
+        <h3 class="form_title_desktop">Contactez nous !</h3>
+        <form  class="form">
+            <div class="form_form">
+                <label for="name"></label>
+                <input type="text" name="name" id="name" class="form_name form_content" placeholder="name">
+                
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="email" class="form_email form_content">
+
+                <textarea placeholder="Write your message" class="form_content"></textarea>
+
+                <button class="form_content">Send !</button>
+            </div>
+            <div class="form_rat">
+                <img src="https://zupimages.net/up/20/11/0ta8.png" alt="ratatouille">
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <ul class="footer block1">
+            <li><a href="#">Conditions Générales</a></li>
+            <li><a href="#">Mentions Légales</a></li>
+        </ul>
+        <ul class="footer block2">
+            <li><a href="https://postimages.org/" target="_blank"><img src='https://i.postimg.cc/7ZDN6BSR/insta.png' alt='insta'/></a></li>
+            <li><a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/RZfQX7Gm/twit.png" alt="twitter"></a></li>
+        </ul>
+        <ul class="footer block3">
+            <li><a href="auteur.html">A propos</a></li>
+            <li><a href="contact.html">Nous contacter</a></li>
+        </ul>    
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
